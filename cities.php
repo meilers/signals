@@ -30,7 +30,7 @@ if (!$db_selected)
 
 
 // NE PAS ENLEVER, pour UNICODE
-mysql_set_charset('utf8',$con);
+mysql_set_charset('utf8',$link);
 
 $sql = "SELECT c.city, c.state, c.country FROM cities AS c ORDER BY c.city";
 

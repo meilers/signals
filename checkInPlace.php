@@ -1,5 +1,65 @@
 <?php
 
+header("Content-type: application/json");
+
+
+$services_json = json_decode(getenv("VCAP_SERVICES"),true);
+$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
+
+$username = $mysql_config["username"];
+$password = $mysql_config["password"];
+$hostname = $mysql_config["hostname"];
+$port = $mysql_config["port"];
+$db = $mysql_config["name"];
+
+$link = mysql_connect("$hostname:$port", $username, $password) OR die (mysqli_connect_error() );
+
+if (!$link)
+{
+	echo "Failed to make connection.";
+	exit;
+}
+
+$db_selected = mysql_select_db($db, $link);
+
+if (!$db_selected)
+{
+	echo "Failed to select db.";
+	exit;
+}
+
+// NE PAS ENLEVER, pour UNICODE
+mysql_set_charset('utf8',$link);
+date_default_timezone_set('America/Los_Angeles'); 	
+
+$jsonString = file_get_contents('php://input');
+$jsonString = EncodeToUTF8($jsonString);
+$json = json_decode($jsonString, true);
+
+$placeId = $json['pid'];
+$userId = $json['uid'];
+
+$placeId = mysql_escape_string($placeId);
+$userId = mysql_escape_string($userId);
+
+$sql = "DELETE FROM users_places WHERE userId = $userId";
+$query = mysql_query($sql);
+
+$sql = "INSERT INTO users_places (userId, placeId, enterTime) VALUES ($userId, $placeId, UTC_TIMESTAMP())";
+
+$query = mysql_query($sql);
+
+if ($query)
+{
+	echo json_encode(array( 'ok' => '1' ));	
+}
+else {
+	echo json_encode(array( 'ok' => '0' ));	
+}
+
+mysql_close($link);
+
+
 function EncodeToUTF8( $sStr )
 {
     try
@@ -31,53 +91,4 @@ function EncodeToUTF8( $sStr )
     return $sStr;
 }
 
-
-
-// Connect to the database(host, username, password)
-$con = mysql_connect($server = "mysql-shared-02.phpfog.com",$username = "Custom App-34204",$password = "TIKi1234");
-
-if (!$con)
-{
-	echo "Failed to make connection.";
-	exit;
-}
-$db = mysql_select_db("signals_phpfogapp_com");
-
-if (!$db)
-{
-	echo "Failed to select db.";
-	exit;
-}
-
-// NE PAS ENLEVER, pour UNICODE
-mysql_set_charset('utf8',$con);
-date_default_timezone_set('America/Los_Angeles'); 	
-
-$jsonString = file_get_contents('php://input');
-$jsonString = EncodeToUTF8($jsonString);
-$json = json_decode($jsonString, true);
-
-$placeId = $json['pid'];
-$userId = $json['uid'];
-
-$placeId = mysql_escape_string($placeId);
-$userId = mysql_escape_string($userId);
-
-$sql = "DELETE FROM users_places WHERE userId = $userId";
-$query = mysql_query($sql);
-
-$sql = "INSERT INTO users_places (userId, placeId, enterTime) VALUES ($userId, $placeId, UTC_TIMESTAMP())";
-
-$query = mysql_query($sql);
-
-if ($query)
-{
-	echo json_encode(array( 'ok' => '1' ));	
-}
-else {
-	echo json_encode(array( 'ok' => '0' ));	
-}
-
-
-mysql_close($con);
 ?>

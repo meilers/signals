@@ -1,58 +1,33 @@
-<?php
-define('TIMEZONE', 'America/Los_Angeles');  
+<?php 
+header("Content-type: application/json");
 
+$services_json = json_decode(getenv("VCAP_SERVICES"),true);
+$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
-function getAge($fbDate) {
-// Convert SQL date to individual Y/M/D variables
-    list($m,$d, $Y) = explode("/",$fbDate);
-    $age = date("Y") - $Y;
-	
-// If the birthday has not yet come this year
-    if(date("md") < $m.$d ) {
-		$age--;
-	}
+$username = $mysql_config["username"];
+$password = $mysql_config["password"];
+$hostname = $mysql_config["hostname"];
+$port = $mysql_config["port"];
+$db = $mysql_config["name"];
 
-    return $age;
-}
+$link = mysql_connect("$hostname:$port", $username, $password) OR die (mysqli_connect_error() );
 
-function distance($lat1, $lon1, $lat2, $lon2, $unit) { 
-  
-  $theta = $lon1 - $lon2; 
-  $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta)); 
-  $dist = acos($dist); 
-  $dist = rad2deg($dist); 
-  $miles = $dist * 60 * 1.1515;
-  $unit = strtoupper($unit);
-
-  if ($unit == "K") {
-    return ($miles * 1.609344); 
-  } else if ($unit == "N") {
-      return ($miles * 0.8684);
-    } else {
-        return $miles;
-      }
-}
-
-// Connect to the database(host, username, password)
-$con = mysql_connect($server = "mysql-shared-02.phpfog.com",$username = "Custom App-34204",$password = "TIKi1234");
-
-if (!$con)
+if (!$link)
 {
 	echo "Failed to make connection.";
 	exit;
 }
 
-$db = mysql_select_db("signals_phpfogapp_com");
+$db_selected = mysql_select_db($db, $link);
 
-if (!$db)
+if (!$db_selected)
 {
 	echo "Failed to select db.";
 	exit;
 }
 
 // NE PAS ENLEVER, pour UNICODE
-mysql_set_charset('utf8',$con);
-date_default_timezone_set('America/Los_Angeles'); 	
+mysql_set_charset('utf8',$link);
 
 $placeId = $_POST['pid'];
 $userId = $_POST['uid'];
@@ -146,5 +121,39 @@ if( $query )
 else
     echo json_encode(array( 'ok' => '0'));
 
+mysql_close($link);
+
+
+
+function getAge($fbDate) {
+// Convert SQL date to individual Y/M/D variables
+    list($m,$d, $Y) = explode("/",$fbDate);
+    $age = date("Y") - $Y;
+	
+// If the birthday has not yet come this year
+    if(date("md") < $m.$d ) {
+		$age--;
+	}
+
+    return $age;
+}
+
+function distance($lat1, $lon1, $lat2, $lon2, $unit) { 
+  
+  $theta = $lon1 - $lon2; 
+  $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta)); 
+  $dist = acos($dist); 
+  $dist = rad2deg($dist); 
+  $miles = $dist * 60 * 1.1515;
+  $unit = strtoupper($unit);
+
+  if ($unit == "K") {
+    return ($miles * 1.609344); 
+  } else if ($unit == "N") {
+      return ($miles * 0.8684);
+    } else {
+        return $miles;
+      }
+}
 
 ?>
