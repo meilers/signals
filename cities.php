@@ -1,4 +1,4 @@
-dsa
+dsaew
 <?php
 
 header("Content-type: application/json");
@@ -9,7 +9,7 @@ $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 $username = $mysql_config["uZeNGGNyXcVq6"];
 $password = $mysql_config["pXXMRhPzLH5AA"];
 $hostname = $mysql_config["us01-user01.crtks9njytxu.us-east-1.rds.amazonaws.com"];
-$port = $mysql_config["10000"];
+$port = $mysql_config["3306"];
 $db = $mysql_config["d71805293e775438a8048add1742c1f2a"];
 
 $link = mysql_connect("$hostname:$port", $username, $password);
