@@ -1,0 +1,17 @@
+--- 
+applications: 
+  .: 
+    services: 
+      signals_db: 
+        type: mysql
+    mem: 128M
+    framework: 
+      info: 
+        mem: 128M
+        description: PHP Application
+        exec: 
+      name: php
+    name: signals
+    url: ${name}.${target-base}
+    instances: 1
+    infra: aws
