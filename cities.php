@@ -4,18 +4,27 @@
 
 header("Content-type: application/json");
 
-// Connect to the database(host, username, password)
-$con = mysql_connect($server = "mysql-shared-02.phpfog.com",$username = "Custom App-34204",$password = "TIKi1234");
+$services_json = json_decode(getenv("VCAP_SERVICES"),true);
+$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
-if (!$con)
+$username = $mysql_config["Custom App-34204"];
+$password = $mysql_config["TIKi1234"];
+$hostname = $mysql_config["mysql-shared-02.phpfog.com"];
+//$port = $mysql_config["port"];
+$db = $mysql_config["signals_phpfogapp_com"];
+
+//$link = mysql_connect("$hostname:$port", $username, $password);
+$link = mysql_connect("$hostname", $username, $password);
+
+if (!$link)
 {
 	echo "Failed to make connection.";
 	exit;
 }
 
-$db = mysql_select_db("signals_phpfogapp_com");
+$db_selected = mysql_select_db($db, $link);
 
-if (!$db)
+if (!$db_selected)
 {
 	echo "Failed to select db.";
 	exit;
