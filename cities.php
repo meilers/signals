@@ -1,4 +1,4 @@
-dsaew
+dsaewrewrwe
 <?php
 
 header("Content-type: application/json");
@@ -6,8 +6,8 @@ header("Content-type: application/json");
 $services_json = json_decode(getenv("VCAP_SERVICES"),true);
 $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
-$username = $mysql_config["uZeNGGNyXcVq6"];
-$password = $mysql_config["pXXMRhPzLH5AA"];
+$username = $mysql_config["meilers"];
+$password = $mysql_config["Camftl17"];
 $hostname = $mysql_config["us01-user01.crtks9njytxu.us-east-1.rds.amazonaws.com"];
 $port = $mysql_config["3306"];
 $db = $mysql_config["d71805293e775438a8048add1742c1f2a"];
