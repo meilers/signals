@@ -1,4 +1,3 @@
-fss
 
 <?php
 
@@ -7,14 +6,13 @@ header("Content-type: application/json");
 $services_json = json_decode(getenv("VCAP_SERVICES"),true);
 $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
-$username = $mysql_config["Custom App-34204"];
-$password = $mysql_config["TIKi1234"];
-$hostname = $mysql_config["mysql-shared-02.phpfog.com"];
-//$port = $mysql_config["port"];
-$db = $mysql_config["signals_phpfogapp_com"];
+$username = $mysql_config["uZeNGGNyXcVq6"];
+$password = $mysql_config["pXXMRhPzLH5AA"];
+$hostname = $mysql_config["us01-user01.crtks9njytxu.us-east-1.rds.amazonaws.com"];
+$port = $mysql_config["10000"];
+$db = $mysql_config["d71805293e775438a8048add1742c1f2a"];
 
-//$link = mysql_connect("$hostname:$port", $username, $password);
-$link = mysql_connect("$hostname", $username, $password);
+$link = mysql_connect("$hostname:$port", $username, $password);
 
 if (!$link)
 {
