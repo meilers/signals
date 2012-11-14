@@ -12,7 +12,7 @@ $hostname = $mysql_config["hostname"];
 $port = $mysql_config["port"];
 $db = $mysql_config["name"];
 
-$link = mysql_connect("$hostname:$port", $username, $password);
+$link = mysql_connect("$hostname:$port", $username, $password) OR die (mysqli_connect_error() );
 
 if (!$link)
 {
