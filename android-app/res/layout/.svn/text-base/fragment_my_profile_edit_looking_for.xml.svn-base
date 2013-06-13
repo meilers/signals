@@ -1,0 +1,141 @@
+
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:padding="15dp"
+android:layout_height="fill_parent">
+
+    <LinearLayout
+    android:id="@+id/profile_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+                
+            <!-- looking for -->
+             
+            <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/looking_for"
+            android:textColor="@color/white"
+            style="?android:attr/listSeparatorTextViewStyle"/>      
+            <TableRow
+            android:id="@+id/looking1_pref_row"
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:layout_height="40dip">
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_marginLeft="0dp"
+                android:layout_height="40dip">
+                    <ImageView
+                    android:id="@+id/looking1_pref_img"
+                    android:layout_marginRight="10dip"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true" 
+                    android:src="@drawable/citrus_r" />
+                    <TextView
+                    android:id="@+id/looking1_pref_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/right_match"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/looking1_pref_img"/>
+                    <ImageView
+                    android:id="@+id/check_looking1_img"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/checkmark" />
+                </RelativeLayout>
+            </TableRow>
+                
+            <TableRow
+            android:id="@+id/looking2_pref_row"
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:layout_height="40dip"> 
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_marginLeft="0dp"
+                android:layout_height="40dip">
+                    <ImageView
+                    android:id="@+id/looking2_pref_img" 
+                    android:layout_marginRight="10dip"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/citrus_o" />
+                    <TextView
+                    android:id="@+id/looking2_pref_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/im_open"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/looking2_pref_img"/>
+                    <ImageView
+                    android:id="@+id/check_looking2_img"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/checkmark" />
+                </RelativeLayout>
+            </TableRow>
+                        
+            <TableRow
+            android:id="@+id/looking3_pref_row"
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:layout_height="40dip"> 
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_marginLeft="0dp"
+                android:layout_height="40dip">
+                    <ImageView
+                    android:id="@+id/looking3_pref_img"
+                    android:layout_marginRight="10dip"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/citrus_g" />
+                    <TextView
+                    android:id="@+id/looking3_pref_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/no_strings"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/looking3_pref_img"/>
+                    <ImageView
+                    android:id="@+id/check_looking3_img"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/checkmark" />
+                </RelativeLayout>
+            </TableRow>
+    
+
+    </LinearLayout>
+</ScrollView>

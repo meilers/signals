@@ -1,0 +1,70 @@
+10
+
+dir
+115
+https://svn.aep.polymtl.ca/svn/Signals/res
+https://svn.aep.polymtl.ca/svn/Signals
+
+
+
+2013-01-23T15:53:01.920443Z
+115
+michael.eilers-smith@polymtl.ca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e9c4de32-cff5-4f7b-8263-c5295a1773bf
+
+values
+dir
+
+xml
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+anim
+dir
+
+menu
+dir
+
+values-v11
+dir
+
+values-large
+dir
+
+drawable-ldpi
+dir
+
+values-v14
+dir
+
+drawable-mdpi
+dir
+
+layout-land
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+

@@ -1,0 +1,35 @@
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll_view"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <LinearLayout
+    android:id="@+id/profile_layout"
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical" >
+
+        
+   
+        
+        <Button
+            android:id="@+id/become_vip_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/become_vip"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/barrier"
+            android:drawablePadding="10dip"
+            android:background="@drawable/btn_green"
+        />
+    </LinearLayout>
+</ScrollView>

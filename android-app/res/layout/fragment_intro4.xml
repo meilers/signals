@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/padding_large"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_large"
+    android:paddingBottom="30dp"
+    android:background="#88000000"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="50sp"
+                android:text="@string/FAQ"
+                android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left"
+            android:paddingTop="30dp"
+            android:textStyle="bold"
+            android:text="@string/Why_do_I_have_to_log_in"
+            android:textColor="@color/white"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="left"
+                android:paddingTop="5dp"
+                android:text="@string/SIGNALS_screen_out_fakes"
+                android:textColor="@color/soft_gray"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/How_do_rendez_vous_work"
+                android:textColor="@color/white"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/soft_gray"
+                android:layout_gravity="left"
+                android:paddingTop="5dp"
+                android:text="@string/Every_day_you_can"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/What_happens_when_I_check_in"
+                android:textColor="@color/white"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/soft_gray"
+                android:layout_gravity="left"
+                android:paddingTop="5dp"
+                android:text="@string/You_become_visible_to_others"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/Whats_a_Bar_Star"
+                android:textColor="@color/white"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/soft_gray"
+                android:layout_gravity="left"
+                android:paddingTop="5dp"
+                android:text="@string/Every_hour_people_in_each_bar"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

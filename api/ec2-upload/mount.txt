@@ -1,0 +1,1 @@
+/usr/bin/s3fs signals -o use_cache=/tmp -o allow_other signalsS3/

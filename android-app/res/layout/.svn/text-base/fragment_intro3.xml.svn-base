@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:facebook="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/padding_large"
+        android:background="#88000000"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:gravity="center_horizontal">
+
+            <com.signals_app.signals.activity.AutoResizeTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="100sp"
+                    android:ellipsize="none"
+                    android:text="@string/PLAN"
+                    android:textColor="@color/white">
+            </com.signals_app.signals.activity.AutoResizeTextView>
+
+            <com.signals_app.signals.activity.AutoResizeTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="40sp"
+                    android:ellipsize="none"
+                    android:text="@string/RENDEZ_VOUS"
+                    android:textColor="@color/white">
+            </com.signals_app.signals.activity.AutoResizeTextView>
+
+        </LinearLayout>
+
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:stretchColumns="*"
+                android:gravity="center_horizontal">
+            <TableRow>
+
+                <View
+                        android:layout_width="0dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        />
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:ellipsize="none"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_gravity="center"
+                        android:text="@string/OR"
+                        android:textColor="@color/white">
+                </TextView>
+
+                <View
+                        android:layout_width="0dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:gravity="center_horizontal">
+
+            <com.signals_app.signals.activity.AutoResizeTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="100sp"
+                    android:ellipsize="none"
+                    android:text="@string/MEET"
+                    android:textColor="@color/white">
+            </com.signals_app.signals.activity.AutoResizeTextView>
+
+            <com.signals_app.signals.activity.AutoResizeTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="50sp"
+                    android:ellipsize="none"
+                    android:text="@string/LIVE_AT_THE_BAR"
+                    android:textColor="@color/white">
+            </com.signals_app.signals.activity.AutoResizeTextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

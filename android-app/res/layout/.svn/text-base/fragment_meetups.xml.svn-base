@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/votes_scroll_view"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">  
+	<LinearLayout
+	    android:id="@+id/meetups_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:layout_marginBottom="15dp"
+	    android:orientation="vertical" >
+	
+	    <!-- Layout bubble -->
+
+        <ImageView
+        android:id="@+id/triangle"
+        android:layout_marginLeft="35dp"
+        android:layout_width="10dip"
+        android:layout_height="10dip"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/triangle3" />
+    
+        <LinearLayout
+        android:background="@drawable/border_bubble_black"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+            <TextView
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/meetups_msg1"
+            android:textColor="@color/soft_gray"/>
+            <TextView
+            android:gravity="left"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/meetups_msg2"
+            android:textColor="@color/soft_gray"/>
+            
+            <Button
+            android:id="@+id/browse_people_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="@string/browse_people"
+            android:background="@drawable/btn_green"
+            />   
+           
+        </LinearLayout>
+	        
+	    <LinearLayout
+		android:orientation="horizontal"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+		android:layout_width="fill_parent"
+		android:background="@drawable/row_background"
+		android:layout_height="?android:attr/listPreferredItemHeight"
+		android:clickable="true">
+		    <ImageView
+		    android:id="@+id/icon"
+		    android:layout_width="35dp"
+		    android:layout_height="35dp"
+		    android:layout_marginRight="20dp"
+		    android:src="@drawable/meetup_dotted"
+		    android:layout_gravity="center_vertical"/>
+		    
+		    <TextView
+		    android:id="@+id/potential_meetups_text"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:text="@string/potential"
+		    android:textColor="@color/white"
+		    android:singleLine="true"
+		    android:ellipsize="marquee"
+		    android:textAppearance="?android:attr/textAppearanceLarge"/>
+		        
+		    
+		    <TextView
+		    android:id="@+id/nb_potential_meetups_text"
+		    android:layout_width="fill_parent"
+		    android:gravity="right"
+		    android:layout_gravity="center_vertical|right" 
+		    android:textColor="@color/white"
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    />
+		</LinearLayout>
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#44aaaaaa"/>
+	    
+        <LinearLayout
+        android:orientation="horizontal"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/row_background"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:clickable="true">
+            <ImageView
+            android:id="@+id/icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/meetup"
+            android:layout_gravity="center_vertical"/>
+            
+            <TextView
+            android:id="@+id/confirmed_meetups_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="@string/confirmed"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+                
+            
+            <TextView
+            android:id="@+id/nb_confirmed_meetups_text"
+            android:layout_width="fill_parent"
+            android:gravity="right"
+            android:layout_gravity="center_vertical|right" 
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        </LinearLayout>
+	    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#44aaaaaa"/>
+	           
+	</LinearLayout>
+</ScrollView>

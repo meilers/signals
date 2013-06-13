@@ -1,0 +1,623 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/Signals/!svn/ver/115/res/layout
+END
+fragment_visits.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/233/res/layout/fragment_visits.xml
+END
+fragment_place.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/234/res/layout/fragment_place.xml
+END
+row_person_inside_peek.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/268/res/layout/row_person_inside_peek.xml
+END
+row_person.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Signals/!svn/ver/268/res/layout/row_person.xml
+END
+row_person_promote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/194/res/layout/row_person_promote.xml
+END
+fragment_messages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/210/res/layout/fragment_messages.xml
+END
+fragment_signals.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/213/res/layout/fragment_signals.xml
+END
+fragment_people_inside_peek.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Signals/!svn/ver/221/res/layout/fragment_people_inside_peek.xml
+END
+dialog_add_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/176/res/layout/dialog_add_photo.xml
+END
+fragment_people.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/194/res/layout/fragment_people.xml
+END
+row_place_no_stats.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/276/res/layout/row_place_no_stats.xml
+END
+window_marquer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/206/res/layout/window_marquer.xml
+END
+row_place.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Signals/!svn/ver/276/res/layout/row_place.xml
+END
+fragment_my_profile_edit_approach.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Signals/!svn/ver/214/res/layout/fragment_my_profile_edit_approach.xml
+END
+fragment_my_profile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Signals/!svn/ver/267/res/layout/fragment_my_profile.xml
+END
+fragment_meetups_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/212/res/layout/fragment_meetups_pager.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Signals/!svn/ver/157/res/layout/activity_main.xml
+END
+fragment_my_profile_edit_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Signals/!svn/ver/213/res/layout/fragment_my_profile_edit_info.xml
+END
+fragment_invitations_clue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Signals/!svn/ver/275/res/layout/fragment_invitations_clue.xml
+END
+actionbar_done_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Signals/!svn/ver/188/res/layout/actionbar_done_button.xml
+END
+fragment_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Signals/!svn/ver/281/res/layout/fragment_menu.xml
+END
+actionbar_custom_view_done.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Signals/!svn/ver/188/res/layout/actionbar_custom_view_done.xml
+END
+activity_my_pics_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/171/res/layout/activity_my_pics_pager.xml
+END
+fragment_profile_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Signals/!svn/ver/213/res/layout/fragment_profile_activity.xml
+END
+dialog_emoticons.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/112/res/layout/dialog_emoticons.xml
+END
+grid_item_emoticon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/112/res/layout/grid_item_emoticon.xml
+END
+dialog_pick_ages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/282/res/layout/dialog_pick_ages.xml
+END
+fragment_my_profile_edit_photos.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Signals/!svn/ver/176/res/layout/fragment_my_profile_edit_photos.xml
+END
+fragment_flirts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/231/res/layout/fragment_flirts.xml
+END
+fragment_people_inside.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/229/res/layout/fragment_people_inside.xml
+END
+fragment_profiles_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Signals/!svn/ver/213/res/layout/fragment_profiles_pager.xml
+END
+fragment_people_nearby.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/198/res/layout/fragment_people_nearby.xml
+END
+row_person_inside.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/268/res/layout/row_person_inside.xml
+END
+row_person_nearby.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/198/res/layout/row_person_nearby.xml
+END
+fragment_potential_rendezvous_confirm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Signals/!svn/ver/276/res/layout/fragment_potential_rendezvous_confirm.xml
+END
+row_place_with_time.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Signals/!svn/ver/276/res/layout/row_place_with_time.xml
+END
+dialog_report.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Signals/!svn/ver/124/res/layout/dialog_report.xml
+END
+menu_frame.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Signals/!svn/ver/112/res/layout/menu_frame.xml
+END
+fragment_profile_approach.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Signals/!svn/ver/213/res/layout/fragment_profile_approach.xml
+END
+fragment_invitations_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Signals/!svn/ver/266/res/layout/fragment_invitations_pager.xml
+END
+layout_separator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/157/res/layout/layout_separator.xml
+END
+row_new_people.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/112/res/layout/row_new_people.xml
+END
+fragment_vip_privileges.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Signals/!svn/ver/269/res/layout/fragment_vip_privileges.xml
+END
+fragment_intro1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/282/res/layout/fragment_intro1.xml
+END
+fragment_intro2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/282/res/layout/fragment_intro2.xml
+END
+fragment_intro3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/282/res/layout/fragment_intro3.xml
+END
+fragment_intro4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/282/res/layout/fragment_intro4.xml
+END
+fragment_votes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/232/res/layout/fragment_votes.xml
+END
+menu_frame_two.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/191/res/layout/menu_frame_two.xml
+END
+row_person_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/199/res/layout/row_person_more.xml
+END
+fragment_my_profile_edit_basic_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Signals/!svn/ver/213/res/layout/fragment_my_profile_edit_basic_info.xml
+END
+fragment_places.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/210/res/layout/fragment_places.xml
+END
+list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/Signals/!svn/ver/112/res/layout/list.xml
+END
+fragment_meetups.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/212/res/layout/fragment_meetups.xml
+END
+row_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Signals/!svn/ver/233/res/layout/row_message.xml
+END
+fragment_potential_rendezvous_plan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Signals/!svn/ver/277/res/layout/fragment_potential_rendezvous_plan.xml
+END
+row_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Signals/!svn/ver/209/res/layout/row_menu.xml
+END
+fragment_my_profile_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Signals/!svn/ver/157/res/layout/fragment_my_profile_edit.xml
+END
+row_pic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Signals/!svn/ver/121/res/layout/row_pic.xml
+END
+fragment_profile_photos.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Signals/!svn/ver/191/res/layout/fragment_profile_photos.xml
+END
+row_photo_action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/112/res/layout/row_photo_action.xml
+END
+row_signal_chat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Signals/!svn/ver/229/res/layout/row_signal_chat.xml
+END
+activity_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Signals/!svn/ver/206/res/layout/activity_map.xml
+END
+row_signal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Signals/!svn/ver/206/res/layout/row_signal.xml
+END
+dialog_add_other_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/171/res/layout/dialog_add_other_photo.xml
+END
+box_person_inside.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/268/res/layout/box_person_inside.xml
+END
+fragment_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/179/res/layout/fragment_settings.xml
+END
+fragment_my_profile_edit_about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Signals/!svn/ver/196/res/layout/fragment_my_profile_edit_about.xml
+END
+fragment_meetups_clue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Signals/!svn/ver/242/res/layout/fragment_meetups_clue.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/185/res/layout/activity_login.xml
+END
+decor_shadow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Signals/!svn/ver/112/res/layout/decor_shadow.xml
+END
+fragment_profile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/267/res/layout/fragment_profile.xml
+END
+row_person_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/143/res/layout/row_person_new.xml
+END
+fragment_messages_chat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/229/res/layout/fragment_messages_chat.xml
+END
+activity_intro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/281/res/layout/activity_intro.xml
+END
+layout_rendezvous_cancelled.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Signals/!svn/ver/276/res/layout/layout_rendezvous_cancelled.xml
+END
+number_picker_pref.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/112/res/layout/number_picker_pref.xml
+END
+box_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Signals/!svn/ver/283/res/layout/box_photo.xml
+END
+fragment_my_profile_become_vip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Signals/!svn/ver/155/res/layout/fragment_my_profile_become_vip.xml
+END
+fragment_register1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/283/res/layout/fragment_register1.xml
+END
+row_flirt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Signals/!svn/ver/121/res/layout/row_flirt.xml
+END
+fragment_register2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/283/res/layout/fragment_register2.xml
+END
+activity_register_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Signals/!svn/ver/282/res/layout/activity_register_account.xml
+END
+fragment_register3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/282/res/layout/fragment_register3.xml
+END
+layout_time.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Signals/!svn/ver/275/res/layout/layout_time.xml
+END
+fragment_register4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/282/res/layout/fragment_register4.xml
+END
+row_bar_star.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Signals/!svn/ver/267/res/layout/row_bar_star.xml
+END
+number_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Signals/!svn/ver/112/res/layout/number_picker.xml
+END
+dialog_add_profile_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Signals/!svn/ver/171/res/layout/dialog_add_profile_photo.xml
+END
+row_signal_chat1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/146/res/layout/row_signal_chat1.xml
+END
+fragment_profile_about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Signals/!svn/ver/196/res/layout/fragment_profile_about.xml
+END
+fragment_my_profile_edit_looking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Signals/!svn/ver/155/res/layout/fragment_my_profile_edit_looking.xml
+END
+row_signal_chat2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Signals/!svn/ver/146/res/layout/row_signal_chat2.xml
+END
+fragment_people_near_you.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Signals/!svn/ver/142/res/layout/fragment_people_near_you.xml
+END
+box_person.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Signals/!svn/ver/268/res/layout/box_person.xml
+END
+fragment_my_profile_edit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Signals/!svn/ver/213/res/layout/fragment_my_profile_edit_activity.xml
+END
+messages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Signals/!svn/ver/112/res/layout/messages.xml
+END
+row_person_near_you.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Signals/!svn/ver/121/res/layout/row_person_near_you.xml
+END
+layout_time_rb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Signals/!svn/ver/275/res/layout/layout_time_rb.xml
+END
+row_signal_category.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Signals/!svn/ver/210/res/layout/row_signal_category.xml
+END
+fragment_my_profile_edit_looking_for.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Signals/!svn/ver/180/res/layout/fragment_my_profile_edit_looking_for.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/282/res/layout/activity_register.xml
+END
+row_crop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Signals/!svn/ver/112/res/layout/row_crop.xml
+END

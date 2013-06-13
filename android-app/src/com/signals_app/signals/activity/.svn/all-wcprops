@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Signals/!svn/ver/255/src/com/signals_app/signals/activity
+END
+VipPrivilegesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Signals/!svn/ver/191/src/com/signals_app/signals/activity/VipPrivilegesFragment.java
+END
+MenuFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Signals/!svn/ver/281/src/com/signals_app/signals/activity/MenuFragment.java
+END
+AspectRatioImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/215/src/com/signals_app/signals/activity/AspectRatioImageView.java
+END
+MyProfileFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Signals/!svn/ver/267/src/com/signals_app/signals/activity/MyProfileFragment.java
+END
+MyProfilePicsPagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Signals/!svn/ver/263/src/com/signals_app/signals/activity/MyProfilePicsPagerActivity.java
+END
+PotentialRendezvousPlanFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Signals/!svn/ver/277/src/com/signals_app/signals/activity/PotentialRendezvousPlanFragment.java
+END
+ImageFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Signals/!svn/ver/242/src/com/signals_app/signals/activity/ImageFragment.java
+END
+MapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Signals/!svn/ver/280/src/com/signals_app/signals/activity/MapActivity.java
+END
+NumberPickerButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Signals/!svn/ver/257/src/com/signals_app/signals/activity/NumberPickerButton.java
+END
+PicsPagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Signals/!svn/ver/212/src/com/signals_app/signals/activity/PicsPagerActivity.java
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Signals/!svn/ver/280/src/com/signals_app/signals/activity/MainActivity.java
+END
+ExpandableHeightGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Signals/!svn/ver/232/src/com/signals_app/signals/activity/ExpandableHeightGridView.java
+END
+SignalsApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Signals/!svn/ver/229/src/com/signals_app/signals/activity/SignalsApplication.java
+END
+ConfirmedRendezvousFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Signals/!svn/ver/279/src/com/signals_app/signals/activity/ConfirmedRendezvousFragment.java
+END
+InvitationsClueFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Signals/!svn/ver/275/src/com/signals_app/signals/activity/InvitationsClueFragment.java
+END
+AddProfilePhotoDialogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/AddProfilePhotoDialogFragment.java
+END
+LaunchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/activity/LaunchActivity.java
+END
+Register3Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/Register3Fragment.java
+END
+FlirtsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/242/src/com/signals_app/signals/activity/FlirtsFragment.java
+END
+Register1Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Signals/!svn/ver/283/src/com/signals_app/signals/activity/Register1Fragment.java
+END
+PotentialRendezvousConfirmFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Signals/!svn/ver/279/src/com/signals_app/signals/activity/PotentialRendezvousConfirmFragment.java
+END
+SignalsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Signals/!svn/ver/279/src/com/signals_app/signals/activity/SignalsFragment.java
+END
+RegisterAccountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/RegisterAccountActivity.java
+END
+VotesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Signals/!svn/ver/283/src/com/signals_app/signals/activity/VotesFragment.java
+END
+PushReceiverActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/activity/PushReceiverActivity.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/LoginActivity.java
+END
+MyProfileEditPhotosFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Signals/!svn/ver/188/src/com/signals_app/signals/activity/MyProfileEditPhotosFragment.java
+END
+PlaceFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Signals/!svn/ver/281/src/com/signals_app/signals/activity/PlaceFragment.java
+END
+NumberPicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/activity/NumberPicker.java
+END
+Intro3Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/Intro3Fragment.java
+END
+PeopleInsidePeekFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Signals/!svn/ver/280/src/com/signals_app/signals/activity/PeopleInsidePeekFragment.java
+END
+Intro1Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/283/src/com/signals_app/signals/activity/Intro1Fragment.java
+END
+MyImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Signals/!svn/ver/243/src/com/signals_app/signals/activity/MyImageView.java
+END
+RegisterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/283/src/com/signals_app/signals/activity/RegisterActivity.java
+END
+PickAgesDialogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/PickAgesDialogFragment.java
+END
+CustomViewPager.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/activity/CustomViewPager.java
+END
+ReportDialogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/121/src/com/signals_app/signals/activity/ReportDialogFragment.java
+END
+PushReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/activity/PushReceiver.java
+END
+AddPhotoDialogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Signals/!svn/ver/176/src/com/signals_app/signals/activity/AddPhotoDialogFragment.java
+END
+ProfilesPagerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Signals/!svn/ver/267/src/com/signals_app/signals/activity/ProfilesPagerFragment.java
+END
+ConnectivityReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/activity/ConnectivityReceiver.java
+END
+MyProfileEditBasicInfoFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Signals/!svn/ver/245/src/com/signals_app/signals/activity/MyProfileEditBasicInfoFragment.java
+END
+PotentialRendezvousFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Signals/!svn/ver/279/src/com/signals_app/signals/activity/PotentialRendezvousFragment.java
+END
+Register4Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/Register4Fragment.java
+END
+Register2Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Signals/!svn/ver/283/src/com/signals_app/signals/activity/Register2Fragment.java
+END
+PlacesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/280/src/com/signals_app/signals/activity/PlacesFragment.java
+END
+MessagesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/270/src/com/signals_app/signals/activity/MessagesFragment.java
+END
+PeopleInsideFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/281/src/com/signals_app/signals/activity/PeopleInsideFragment.java
+END
+IntroActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/activity/IntroActivity.java
+END
+InvitationsPagerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Signals/!svn/ver/275/src/com/signals_app/signals/activity/InvitationsPagerFragment.java
+END
+ProfileFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Signals/!svn/ver/269/src/com/signals_app/signals/activity/ProfileFragment.java
+END
+VisitsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/242/src/com/signals_app/signals/activity/VisitsFragment.java
+END
+Intro4Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/281/src/com/signals_app/signals/activity/Intro4Fragment.java
+END
+Intro2Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/281/src/com/signals_app/signals/activity/Intro2Fragment.java
+END
+AutoResizeTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Signals/!svn/ver/281/src/com/signals_app/signals/activity/AutoResizeTextView.java
+END
+MessagesChatFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/270/src/com/signals_app/signals/activity/MessagesChatFragment.java
+END
+SettingsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/212/src/com/signals_app/signals/activity/SettingsFragment.java
+END
+PhotosPagerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Signals/!svn/ver/242/src/com/signals_app/signals/activity/PhotosPagerFragment.java
+END

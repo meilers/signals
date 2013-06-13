@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">  
+    
+
+    
+        
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+    
+
+	        <TextView
+	            android:layout_marginBottom="5dp"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/username"
+	            android:textColor="@color/white"
+	            style="?android:attr/listSeparatorTextViewStyle"/>      
+		    <EditText 
+		        android:id="@+id/username_et" 
+		        android:visibility="gone"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="top|left"
+                android:hint="@string/username"
+		        android:inputType="textNoSuggestions"
+                android:imeOptions="actionDone"
+		        style="@android:style/TextAppearance.Medium"/>
+		    <TextView 
+                android:id="@+id/username_tv" 
+                android:paddingLeft="10dp"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                style="@android:style/TextAppearance.Medium"/>
+		    
+		    
+		    <TableRow
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:stretchColumns="*">
+		        <LinearLayout
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:orientation="vertical">
+		            <TextView
+		            android:id="@+id/sex_header_text"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/i_am_a"
+		            android:textColor="@color/white"
+		            style="?android:attr/listSeparatorTextViewStyle"/>  
+		            <LinearLayout
+		            android:id="@+id/female_pref_row"
+		            android:orientation="horizontal"
+		            android:layout_marginLeft="8dp"
+		            android:clickable="true"
+		            android:background="@drawable/row_background"
+		            android:layout_width="fill_parent"
+		            android:gravity="center_vertical"
+		            android:layout_height="40dip">
+		                <ImageView
+		                android:id="@+id/female_img"
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:src="@drawable/female" />
+		                <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="40dip"
+		                android:gravity="center_vertical"
+		                android:textColor="@color/white"
+		                android:layout_marginLeft="5dp"
+		                android:text="@string/female"/>
+		                <ImageView
+		                android:id="@+id/check_female_img"
+		                android:layout_width="10dp"
+		                android:layout_height="10dp"
+		                android:layout_marginLeft="5dp"
+		                android:src="@drawable/checkmark" />
+		            </LinearLayout>
+		            <LinearLayout
+		            android:id="@+id/male_pref_row"
+		            android:orientation="horizontal"
+		            android:layout_marginLeft="8dp"
+		            android:clickable="true"
+		            android:background="@drawable/row_background"
+		            android:layout_width="fill_parent"
+		            android:gravity="center_vertical"
+		            android:layout_height="40dip">
+		                <ImageView
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:src="@drawable/male" />
+		                <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="40dip"
+		                android:gravity="center_vertical"
+		                android:layout_marginLeft="5dp"
+		                android:textColor="@color/white"
+		                android:text="@string/male"/>
+		                <ImageView
+		                android:id="@+id/check_male_img"
+		                android:layout_width="10dp"
+		                android:layout_height="10dp"
+		                android:layout_marginLeft="5dp"
+		                android:src="@drawable/checkmark" />
+		            </LinearLayout>
+		        </LinearLayout>
+		        
+		        <!-- Interested In -->
+		        <LinearLayout
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:orientation="vertical">
+		            <TextView
+		            android:id="@+id/orientation_header_text"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/interested_in"
+		            android:textColor="@color/white"
+		            style="?android:attr/listSeparatorTextViewStyle"/>  
+		            <LinearLayout
+		            android:id="@+id/interested_in_women_row"
+		            android:orientation="horizontal"
+		            android:clickable="true"
+		            android:layout_marginLeft="8dp"
+		            android:background="@drawable/row_background"
+		            android:layout_width="fill_parent"
+		            android:gravity="center_vertical"
+		            android:layout_height="40dip">
+		                <ImageView
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:src="@drawable/female" />
+		                <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="40dip"
+		                android:layout_marginLeft="5dp"
+		                android:gravity="center_vertical"
+		                android:textColor="@color/white"
+		                android:text="@string/women"/>
+		                <ImageView
+		                android:id="@+id/check_interested_in_women_img"
+		                android:layout_width="10dp"
+		                android:layout_height="10dp"
+		                android:layout_marginLeft="5dp"
+		                android:visibility="gone"
+		                android:src="@drawable/checkmark" />
+		            </LinearLayout>
+		            <LinearLayout
+		            android:id="@+id/interested_in_men_row"
+		            android:orientation="horizontal"
+		            android:clickable="true"
+		            android:layout_marginLeft="8dp"
+		            android:background="@drawable/row_background"
+		            android:layout_width="fill_parent"
+		            android:gravity="center_vertical"
+		            android:layout_height="40dip">
+		                <ImageView
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:src="@drawable/male" />
+		                <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="40dip"
+		                android:gravity="center_vertical"
+		                android:layout_marginLeft="5dp"
+		                android:textColor="@color/white"
+		                android:text="@string/men"/>
+		                <ImageView
+		                android:id="@+id/check_interested_in_men_img"
+		                android:layout_width="10dp"
+		                android:layout_height="10dp"
+		                android:layout_marginLeft="5dp"
+		                android:visibility="gone"
+		                android:src="@drawable/checkmark" />
+		            </LinearLayout>
+		        </LinearLayout>
+		    </TableRow>>
+		    
+		    
+		    <TextView
+		    android:id="@+id/between_ages_header"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/between_the_ages_of"
+		    android:layout_marginTop="20dp"
+		    android:textColor="@color/white"
+		    style="?android:attr/listSeparatorTextViewStyle"/>  
+		        
+		    <RelativeLayout
+		    android:id="@+id/between_ages_row"
+		    android:layout_marginLeft="8dp"
+		    android:clickable="true"
+		    android:background="@drawable/row_background"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+		        
+		        <TextView
+		        android:id="@+id/between_ages_text"
+		        android:layout_alignParentLeft="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dip"
+		        android:gravity="center_vertical"
+		        android:textColor="@color/white"/>
+		        <ImageView
+	            android:id="@+id/between_ages_iv"
+		        android:layout_width="20dp"
+		        android:layout_height="20dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:src="@drawable/compose" />
+		    </RelativeLayout>
+		    
+		    
+		                <!-- looking for -->
+             
+            <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/looking_for_optional"
+            android:textColor="@color/white"
+            style="?android:attr/listSeparatorTextViewStyle"/>      
+            <TableRow
+            android:id="@+id/looking1_pref_row"
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:layout_height="40dip">
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/row_background"
+                android:layout_marginLeft="0dp"
+                android:layout_height="40dip">
+                    <ImageView
+                    android:id="@+id/looking1_pref_img"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true" 
+                    android:src="@drawable/citrus_r" />
+                    <TextView
+                    android:id="@+id/looking1_pref_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/right_match"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/looking1_pref_img"/>
+                    <ImageView
+                    android:id="@+id/check_looking1_img"
+                    android:layout_width="10dip"
+                    android:layout_height="10dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/checkmark" />
+                </RelativeLayout>
+            </TableRow>
+                
+            <TableRow
+            android:id="@+id/looking2_pref_row"
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:layout_height="40dip"> 
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/row_background"
+                android:layout_marginLeft="0dp"
+                android:layout_height="40dip">
+                    <ImageView
+                    android:id="@+id/looking2_pref_img" 
+                    android:layout_marginRight="10dip"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/citrus_o" />
+                    <TextView
+                    android:id="@+id/looking2_pref_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/im_open"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/looking2_pref_img"/>
+                    <ImageView
+                    android:id="@+id/check_looking2_img"
+                    android:layout_width="10dip"
+                    android:layout_height="10dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/checkmark" />
+                </RelativeLayout>
+            </TableRow>
+                        
+            <TableRow
+            android:id="@+id/looking3_pref_row"
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:layout_height="40dip"> 
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/row_background"
+                android:layout_marginLeft="0dp"
+                android:layout_height="40dip">
+                    <ImageView
+                    android:id="@+id/looking3_pref_img"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/citrus_g" />
+                    <TextView
+                    android:id="@+id/looking3_pref_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/no_strings"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/looking3_pref_img"/>
+                    <ImageView
+                    android:id="@+id/check_looking3_img"
+                    android:layout_width="10dip"
+                    android:layout_height="10dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/checkmark" />
+                </RelativeLayout>
+            </TableRow>
+            
+            
+		    <TextView
+		    android:id="@+id/birthday_header"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/my_birthday"
+		    android:layout_marginTop="20dp"
+		    android:textColor="@color/white"
+		    style="?android:attr/listSeparatorTextViewStyle"/>  
+		    <RelativeLayout
+		    android:id="@+id/birthday_row"
+		    android:layout_marginLeft="8dp"
+		    android:clickable="true"
+		    android:background="@drawable/row_background"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+		        
+		        <TextView
+		        android:id="@+id/birthday_text"
+		        android:layout_alignParentLeft="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dip"
+		        android:gravity="center_vertical"
+		        android:textColor="@color/white"/>
+		        <ImageView
+	            android:id="@+id/birthday_iv"
+		        android:layout_width="20dp"
+		        android:layout_height="20dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:src="@drawable/compose" />
+		    </RelativeLayout>
+		    
+		    
+
+
+    
+
+        
+
+</LinearLayout>
+</ScrollView>

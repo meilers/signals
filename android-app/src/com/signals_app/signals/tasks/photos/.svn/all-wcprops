@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/tasks/photos
+END
+DeletePhotoTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/tasks/photos/DeletePhotoTaskMethod.java
+END
+UploadPhotoTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/tasks/photos/UploadPhotoTaskMethod.java
+END
+UploadProfilePhotoTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/tasks/photos/UploadProfilePhotoTaskMethod.java
+END
+UploadOtherPhotoTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/tasks/photos/UploadOtherPhotoTaskMethod.java
+END
+MakeProfilePhotoTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Signals/!svn/ver/258/src/com/signals_app/signals/tasks/photos/MakeProfilePhotoTaskMethod.java
+END

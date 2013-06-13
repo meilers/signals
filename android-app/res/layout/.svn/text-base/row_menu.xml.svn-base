@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+    
+	<ImageView
+	android:id="@+id/menu_icon"
+	android:layout_width="30dp"
+	android:layout_height="30dp"
+	android:layout_gravity="center_vertical|left" />
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_vertical|left" 
+    android:layout_width="fill_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+        <TextView
+	    android:id="@+id/menu_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical|left"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+        android:id="@+id/menu_sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+   </LinearLayout>     
+        
+   <TextView
+       android:id="@+id/notifications_text"
+       android:layout_width="fill_parent"
+       android:layout_height="?android:attr/listPreferredItemHeight"
+       android:gravity="center_vertical|right"
+	   android:layout_gravity="center_vertical|right" 
+       android:singleLine="true"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>

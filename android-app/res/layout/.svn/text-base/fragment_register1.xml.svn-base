@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll_view"
+        android:paddingTop="@dimen/padding_large"
+
+        android:paddingRight="@dimen/padding_large"
+        android:paddingBottom="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+
+    <LinearLayout
+            android:id="@+id/root_layout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textColor="@color/white"
+                style="?android:attr/listSeparatorTextViewStyle"/>
+        <EditText
+                android:id="@+id/username_et"
+                android:layout_marginLeft="12dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:hint="@string/username"
+                android:inputType="textNoSuggestions"
+                android:imeOptions="actionDone"
+                android:textColor="@color/soft_gray"
+                style="@android:style/TextAppearance.Small"/>
+
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:layout_marginTop="20dp"
+                android:stretchColumns="*">
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                <TextView
+                        android:id="@+id/sex_header_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i_am_a"
+                        android:textColor="@color/white"
+                        style="?android:attr/listSeparatorTextViewStyle"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="40dip">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/soft_gray"
+                            android:text="@string/female"/>
+                    <RadioButton
+                            android:id="@+id/female_rb"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="40dip">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/soft_gray"
+                            android:text="@string/male"/>
+                    <RadioButton
+                            android:id="@+id/male_rb"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Interested In -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/interested_in"
+                        android:textColor="@color/white"
+                        style="?android:attr/listSeparatorTextViewStyle"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="40dip">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/soft_gray"
+                            android:text="@string/women"/>
+                    <CheckBox
+                            android:id="@+id/women_cb"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="40dip">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/soft_gray"
+                            android:text="@string/men"/>
+                    <CheckBox
+                            android:id="@+id/men_cb"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>>
+
+
+        <TextView
+                android:id="@+id/between_ages_header"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/between_the_ages_of"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                style="?android:attr/listSeparatorTextViewStyle"/>
+
+        <RelativeLayout
+                android:id="@+id/between_ages_row"
+                android:paddingLeft="@dimen/padding_large"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                android:background="@drawable/row_background"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/between_ages_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/soft_gray"/>
+        </RelativeLayout>
+
+
+        <!-- looking for -->
+
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/looking_for_optional"
+                android:textColor="@color/white"
+                style="?android:attr/listSeparatorTextViewStyle"/>
+        <TableRow
+                android:id="@+id/looking1_pref_row"
+                android:paddingLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip">
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="40dip">
+                <ImageView
+                        android:id="@+id/looking1_pref_img"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/citrus_r" />
+                <TextView
+                        android:id="@+id/looking1_pref_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/right_match"
+                        android:textColor="@color/soft_gray"
+                        android:layout_toRightOf="@id/looking1_pref_img"/>
+                <RadioButton
+                        android:id="@+id/looking1_rb"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/looking2_pref_row"
+                android:paddingLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip">
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="40dip">
+                <ImageView
+                        android:id="@+id/looking2_pref_img"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/citrus_o" />
+                <TextView
+                        android:id="@+id/looking2_pref_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/im_open"
+                        android:textColor="@color/soft_gray"
+                        android:layout_toRightOf="@id/looking2_pref_img"/>
+                <RadioButton
+                        android:id="@+id/looking2_rb"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/looking3_pref_row"
+                android:paddingLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip">
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="40dip">
+                <ImageView
+                        android:id="@+id/looking3_pref_img"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/citrus_g" />
+                <TextView
+                        android:id="@+id/looking3_pref_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/no_strings"
+                        android:textColor="@color/soft_gray"
+                        android:layout_toRightOf="@id/looking3_pref_img"/>
+                <RadioButton
+                        android:id="@+id/looking3_rb"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </TableRow>
+
+
+        <TextView
+                android:id="@+id/birthday_header"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_birthday"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                style="?android:attr/listSeparatorTextViewStyle"/>
+        <RelativeLayout
+                android:id="@+id/birthday_row"
+                android:clickable="true"
+                android:paddingLeft="@dimen/padding_large"
+                android:background="@drawable/row_background"
+                android:layout_marginLeft="8dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/birthday_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/soft_gray"/>
+            <ImageView
+                    android:id="@+id/birthday_iv"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/location_header"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/My_Location"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                style="?android:attr/listSeparatorTextViewStyle"/>
+        <RelativeLayout
+                android:id="@+id/location_row"
+                android:paddingLeft="@dimen/padding_large"
+                android:clickable="true"
+                android:background="@drawable/row_background"
+                android:layout_marginLeft="8dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/location_tv"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/soft_gray"/>
+            <ImageView
+                    android:id="@+id/location_iv"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+            <CheckBox
+                    android:id="@+id/i_agree_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            <TextView
+                    android:id="@+id/i_agree_tv"
+                    android:layout_toLeftOf="@id/i_agree_cb"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@android:style/TextAppearance.Medium"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_black"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:text="@string/Continue"/>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

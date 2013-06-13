@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+	  	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="15dp"
+		android:paddingBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip">
+    	  	<FrameLayout
+			   android:orientation="vertical"
+			   android:id="@+id/profile_pic_layout"
+			   android:layout_width="60dip"
+			   android:layout_height="60dip">	
+			   
+			<ProgressBar 
+				    android:id="@+id/progress_bar"
+				    android:layout_width="60dip" 
+				    android:layout_height="60dip"/>
+			<ImageView
+		 	xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/profile_pic"
+		 	android:layout_width="60dip"
+		 	android:layout_height="60dip"/>
+			 </FrameLayout>
+		 	
+  	    		<ImageView
+	        android:id="@+id/blocked_image"
+       	  	android:layout_marginLeft="3dp"
+			android:layout_marginTop="3dp"
+			android:visibility="gone" 
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	      	android:layout_width="15dip"
+	        android:layout_height="15dip"
+	        android:src="@drawable/circlex" />
+
+    
+   			<TextView
+    		android:id="@+id/place_time_text"
+    		android:layout_marginLeft="15dp"
+    		android:gravity="center"
+    		android:layout_toRightOf="@id/profile_pic_layout"
+    		android:singleLine="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dp"   
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+   			
+   			<TextView
+    		android:id="@+id/date_text"
+    		android:layout_alignParentRight="true"
+    		android:gravity="center"
+    		android:singleLine="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dp"   
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+   			
+   			   			
+   			<LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="15dp"
+	        android:layout_toRightOf="@id/profile_pic_layout"
+			android:layout_below="@id/place_time_text"
+			android:gravity="center|left"
+	      	android:layout_width="wrap_content"
+	        android:layout_height="40dp">
+	    		<TextView
+	    		android:id="@+id/signal_text"
+				android:layout_height="wrap_content"  
+	    		android:singleLine="true"
+	    		android:textColor="@color/citrus_red"
+		        android:layout_width="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+    		</LinearLayout>
+	    			
+	   	</RelativeLayout>	    	

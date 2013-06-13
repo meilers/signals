@@ -1,0 +1,410 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll_view"
+android:paddingTop="15dp"
+android:paddingBottom="15dp"
+android:paddingRight="15dp"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">  
+    <LinearLayout
+    android:id="@+id/my_profile_edit_approach_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    
+        <!-- TIPS --> 
+        <TextView
+        android:id="@+id/tips_separator"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tips"
+        android:textColor="@color/citrus_green"
+        style="@android:style/TextAppearance.Large"/>  
+        
+    
+        <RelativeLayout
+        android:id="@+id/tip_come_say_hi_row"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/come_and_say_hi"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/tip_come_say_hi_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/tip_come_say_hi_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/tip_buy_me_a_drink_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/buy_me_a_drink"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/tip_buy_me_a_drink_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/tip_buy_me_a_drink_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>   
+        
+        
+        <RelativeLayout
+        android:id="@+id/tip_invite_me_to_dance_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/invite_me_to_dance"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/tip_invite_me_to_dance_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/tip_invite_me_to_dance_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>   
+  
+        <RelativeLayout
+        android:id="@+id/tip_make_me_laugh_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/make_me_laugh"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/tip_make_me_laugh_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/tip_make_me_laugh_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>   
+        
+        
+        <RelativeLayout
+        android:id="@+id/tip_meet_my_friends_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/meet_my_friends"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/tip_meet_my_friends_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/tip_meet_my_friends_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>   
+        
+        
+        
+        <RelativeLayout
+        android:id="@+id/tip_surprise_me_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/surprise_me"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/tip_surprise_me_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/tip_surprise_me_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+            
+        </RelativeLayout>
+        
+        
+        <!-- DO NOT -->
+        
+        <TextView
+        android:id="@+id/donts_separator"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/donts"
+        android:textColor="@color/citrus_green"
+        style="@android:style/TextAppearance.Large"/>  
+        
+        <RelativeLayout
+        android:id="@+id/dont_be_drunk_row"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/dont_be_drunk"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/dont_be_drunk_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/dont_be_drunk_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+        android:id="@+id/dont_expect_anything_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/dont_expect_anything"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/dont_expect_anything_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/dont_expect_anything_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+            
+            
+        </RelativeLayout>
+
+        
+        <RelativeLayout
+        android:id="@+id/dont_be_persistent_row"
+        android:paddingLeft="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip" 
+            android:gravity="center_vertical"
+            android:text="@string/dont_be_persistent"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_alignParentLeft="true"/>
+            
+            <CheckBox
+            android:id="@+id/dont_be_persistent_cb"
+            android:visibility="gone"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+            <ImageView
+            android:id="@+id/dont_be_persistent_iv"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkmark" />
+            
+        </RelativeLayout>   
+  
+
+        
+        
+            
+        <TextView
+        android:id="@+id/personal_advice_separator"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/personal_advice"
+        android:textColor="@color/citrus_green"
+        style="@android:style/TextAppearance.Large"/>  
+        
+        <EditText
+            android:id="@+id/personal_advice_et"
+            android:visibility="gone"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_something_here"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        <TextView
+            android:id="@+id/personal_advice_tv"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>
+        
+    </LinearLayout>
+</ScrollView>

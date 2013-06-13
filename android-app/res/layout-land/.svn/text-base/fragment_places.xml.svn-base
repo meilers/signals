@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical" >
+	
+	<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_marginTop="15dip">
+      
+    	    <FrameLayout
+			android:orientation="vertical"
+				android:layout_marginRight="10dp"
+        		android:background="@drawable/border_white"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">	
+				<LinearLayout
+			    android:id="@+id/clubs_btn_layout"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:orientation="vertical" />
+				<ImageButton 
+			    android:id="@+id/clubs_btn"
+			    android:layout_margin="5dp"
+               	android:layout_width="35dp"
+               	android:layout_gravity="center"
+               	android:layout_height="35dp"
+               	android:scaleType="fitXY"
+               	android:adjustViewBounds="true"
+               	android:background="@drawable/speaker"
+               	android:focusable="true" >
+               	</ImageButton>
+            </FrameLayout>
+            
+    	    <FrameLayout
+			android:orientation="vertical"
+			android:layout_marginLeft="10dp"
+  		 	android:layout_marginRight="10dp"
+        		android:background="@drawable/border_white"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">	
+				<LinearLayout
+			    android:id="@+id/lounges_btn_layout"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:orientation="vertical" />
+				<ImageButton 
+			    android:id="@+id/lounges_btn"
+			    android:layout_margin="5dp"
+			    android:layout_gravity="center"
+               	android:layout_width="35dp"
+               	android:layout_height="35dp"
+               	android:scaleType="fitXY"
+               	android:adjustViewBounds="true"
+               	android:background="@drawable/martini"
+               	android:focusable="true" >
+               	</ImageButton>
+            </FrameLayout>
+             
+   	    	<FrameLayout
+			android:orientation="vertical"
+			android:layout_marginLeft="10dp"
+  		 	android:layout_marginRight="10dp"
+        		android:background="@drawable/border_white"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">	
+				<LinearLayout
+			    android:id="@+id/bars_btn_layout"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:orientation="vertical" />
+				<ImageButton 
+			    android:id="@+id/bars_btn"
+			    android:layout_margin="5dp"
+			    android:layout_gravity="center"
+               	android:layout_width="35dp"
+               	android:layout_height="35dp"
+               	android:scaleType="fitXY"
+               	android:adjustViewBounds="true"
+               	android:background="@drawable/beer"
+               	android:focusable="true" >
+               	</ImageButton>
+            </FrameLayout>
+            
+   	    	<FrameLayout
+			android:orientation="vertical"
+			android:layout_marginLeft="20dp"
+        		android:background="@drawable/border_white"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">	
+				<LinearLayout
+			    android:id="@+id/people_btn_layout"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:orientation="vertical" />
+				<ImageButton 
+			    android:id="@+id/people_btn"
+			    android:layout_margin="5dp"
+			    android:layout_gravity="center"
+               	android:layout_width="35dp"
+               	android:layout_height="35dp"
+               	android:scaleType="fitXY"
+               	android:adjustViewBounds="true"
+               	android:background="@drawable/group"
+               	android:focusable="true" >
+               	</ImageButton>
+            </FrameLayout>
+
+        </TableRow> 
+        
+    <TableRow
+    android:visibility="gone"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal|center_vertical"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="15dip" >  
+		<TextView
+		android:id="@+id/clubs_text"
+		android:layout_width="50dp"
+		android:layout_height="20dp"
+		android:layout_marginRight="10dp"
+		android:textColor="#FFFFFFFF"
+		android:gravity="center"
+		android:textSize="12sp" 
+		android:singleLine="true" 
+		android:text="@string/clubs_caps"/>
+		<TextView
+		android:id="@+id/lounges_text"
+		android:layout_width="60dp"
+		android:layout_height="20dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:gravity="center"
+		android:textColor="#FFFFFFFF"
+		android:textSize="12sp"
+		android:singleLine="true"
+		android:text="@string/lounges_caps"/>
+		<TextView
+		android:id="@+id/bars_text"
+		android:layout_width="50dp"
+		android:layout_height="20dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:textColor="#FFFFFFFF"
+		android:textSize="12sp"
+		android:gravity="center"
+		android:singleLine="true"
+		android:text="@string/bars_caps"/>
+		<TextView 
+		android:id="@+id/people_text"
+		android:layout_width="50dp"
+		android:layout_height="20dp"
+		android:layout_marginLeft="20dip"
+		android:textColor="#FFFFFFFF"
+		android:textSize="12sp"
+		android:gravity="center"
+		android:singleLine="true"
+		android:text="@string/people_caps"/>
+	</TableRow>
+		    	
+    <ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    /> 
+
+</LinearLayout>

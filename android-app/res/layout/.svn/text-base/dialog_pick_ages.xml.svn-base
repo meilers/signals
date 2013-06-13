@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:weightSum="3"
+    >
+
+	<com.signals_app.signals.activity.NumberPicker
+	    android:id="@+id/num_picker_1"
+	    android:layout_weight="1"
+		android:layout_marginLeft="40dp"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content" />
+	<TextView
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="center_vertical|center_horizontal"
+		android:layout_weight="1"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:text="@string/and"
+		android:textColor="@color/white"/>
+	<com.signals_app.signals.activity.NumberPicker
+	    android:id="@+id/num_picker_2"
+	    android:layout_weight="1"
+	    android:layout_marginRight="40dp"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content" />
+	
+</LinearLayout>

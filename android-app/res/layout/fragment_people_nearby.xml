@@ -1,0 +1,21 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/people_layout"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <GridView
+    android:id="@+id/gridview"
+    android:layout_above="@id/layout_peeking"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:horizontalSpacing="0dp"
+    android:verticalSpacing="0dp"
+    android:columnWidth="90dp" 
+    android:gravity="center"
+    android:stretchMode="columnWidth" > 
+    </GridView>
+</RelativeLayout>

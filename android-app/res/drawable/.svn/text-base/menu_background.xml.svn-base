@@ -1,0 +1,5 @@
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/tile2" android:gravity="right|top" 
+    android:tileMode="repeat" >   
+</bitmap>   

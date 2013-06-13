@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Signals/!svn/ver/172/src/com/signals_app/signals/util
+END
+EscapeChars.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/EscapeChars.java
+END
+Utility.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Signals/!svn/ver/277/src/com/signals_app/signals/util/Utility.java
+END
+PushReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/PushReceiver.java
+END
+PushReceiverActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/266/src/com/signals_app/signals/util/PushReceiverActivity.java
+END
+BitmapScaler.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/BitmapScaler.java
+END
+ConnectivityReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/ConnectivityReceiver.java
+END
+MyPreferenceCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/MyPreferenceCategory.java
+END
+AutoResizeTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/AutoResizeTextView.java
+END
+LruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/LruCache.java
+END
+NetworkStateReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/util/NetworkStateReceiver.java
+END
+MyLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Signals/!svn/ver/280/src/com/signals_app/signals/util/MyLocation.java
+END

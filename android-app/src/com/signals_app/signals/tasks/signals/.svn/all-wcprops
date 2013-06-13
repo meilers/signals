@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Signals/!svn/ver/250/src/com/signals_app/signals/tasks/signals
+END
+FetchVisitsTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Signals/!svn/ver/233/src/com/signals_app/signals/tasks/signals/FetchVisitsTaskMethod.java
+END
+ReportTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Signals/!svn/ver/212/src/com/signals_app/signals/tasks/signals/ReportTaskMethod.java
+END
+FetchFlirtsTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Signals/!svn/ver/270/src/com/signals_app/signals/tasks/signals/FetchFlirtsTaskMethod.java
+END
+UnblockTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Signals/!svn/ver/212/src/com/signals_app/signals/tasks/signals/UnblockTaskMethod.java
+END
+VoteTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Signals/!svn/ver/228/src/com/signals_app/signals/tasks/signals/VoteTaskMethod.java
+END
+FlirtTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/228/src/com/signals_app/signals/tasks/signals/FlirtTaskMethod.java
+END
+FetchMessagesChatTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Signals/!svn/ver/236/src/com/signals_app/signals/tasks/signals/FetchMessagesChatTaskMethod.java
+END
+FetchMessagesTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Signals/!svn/ver/233/src/com/signals_app/signals/tasks/signals/FetchMessagesTaskMethod.java
+END
+MessageTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Signals/!svn/ver/228/src/com/signals_app/signals/tasks/signals/MessageTaskMethod.java
+END
+BlockTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Signals/!svn/ver/212/src/com/signals_app/signals/tasks/signals/BlockTaskMethod.java
+END
+FetchSignalsTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Signals/!svn/ver/212/src/com/signals_app/signals/tasks/signals/FetchSignalsTaskMethod.java
+END
+FetchVotesTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Signals/!svn/ver/233/src/com/signals_app/signals/tasks/signals/FetchVotesTaskMethod.java
+END

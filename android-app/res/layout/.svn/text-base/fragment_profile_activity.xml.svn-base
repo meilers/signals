@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll_view"
+android:paddingLeft="15dp"
+android:paddingRight="15dp"
+android:paddingBottom="15dp"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">  	
+	   <LinearLayout
+	   android:orientation="vertical"
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content">
+	   
+
+		   	
+	   	<!-- TOP FREQUENTED BARS -->
+		<TextView
+		android:id="@+id/top_frequented_bars_separator"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="@string/top_frequented_bars"
+		android:textColor="@color/citrus_green"
+		style="@android:style/TextAppearance.Large"/>  
+	  	    
+	   
+		<LinearLayout
+		android:id="@+id/top_frequented_bar1_row"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+		android:layout_width="fill_parent"
+		android:gravity="center_vertical|left" 
+		android:layout_height="30dip">
+			
+	    	<ImageView
+	   	    android:id="@+id/top_frequented_bar1_genre_img"
+	   	    android:scaleType="fitCenter"
+		    android:layout_marginRight="10dp"
+		  	android:layout_width="20dip"
+		    android:layout_height="20dip"
+		    android:src="@drawable/martini" />
+	    
+			<TextView
+		    android:id="@+id/top_frequented_bar1_text"
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:ellipsize="marquee"
+			android:singleLine="true"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"/>
+		</LinearLayout>
+		
+		
+		<LinearLayout
+		android:id="@+id/top_frequented_bar2_row"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical|left" 
+	    android:layout_marginTop="10dp"
+		android:layout_width="fill_parent" 
+		android:layout_height="30dip">
+	    	<ImageView
+	   	    android:id="@+id/top_frequented_bar2_genre_img"
+	   	    android:scaleType="fitCenter"
+		    android:layout_marginRight="10dp"
+		  	android:layout_width="20dip"
+            android:layout_height="20dip"
+		    android:src="@drawable/martini" />
+	    
+			<TextView
+		    android:id="@+id/top_frequented_bar2_text"
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:ellipsize="marquee"
+			android:singleLine="true"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"/>
+		</LinearLayout>
+		
+		
+		
+		<LinearLayout
+		android:id="@+id/top_frequented_bar3_row"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical|left" 
+	    android:layout_marginTop="10dp"
+		android:layout_width="fill_parent" 
+		android:layout_height="30dip">
+	    	<ImageView
+	   	    android:id="@+id/top_frequented_bar3_genre_img"
+	   	    android:scaleType="fitCenter"
+		    android:layout_marginRight="10dp"
+		  	android:layout_width="20dip"
+            android:layout_height="20dip"
+		    android:src="@drawable/martini" />
+	    
+			<TextView
+		    android:id="@+id/top_frequented_bar3_text"
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:ellipsize="marquee"
+			android:singleLine="true"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"/>
+		</LinearLayout>
+		
+		
+	
+	   	<!-- COLLECTED BAR STARS -->
+		<TextView
+		android:id="@+id/collected_bar_stars_separator"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="@string/collected_bar_stars"
+		android:textColor="@color/citrus_green"
+		style="@android:style/TextAppearance.Large"/>  	
+		
+		<LinearLayout
+    	android:id="@+id/collected_bar_stars_layout"		
+	   	android:orientation="vertical"
+	   	android:layout_width="fill_parent" 
+	   	android:layout_height="wrap_content"/>
+	</LinearLayout>
+</ScrollView>

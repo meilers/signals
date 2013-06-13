@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Signals/!svn/ver/268/src/com/signals_app/signals/model/rendezvous
+END
+Rendezvous.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Signals/!svn/ver/273/src/com/signals_app/signals/model/rendezvous/Rendezvous.java
+END
+ConfirmedRendezvous.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Signals/!svn/ver/278/src/com/signals_app/signals/model/rendezvous/ConfirmedRendezvous.java
+END
+PotentialRendezvous.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Signals/!svn/ver/277/src/com/signals_app/signals/model/rendezvous/PotentialRendezvous.java
+END

@@ -1,0 +1,249 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll_view"
+android:paddingLeft="5dp"
+android:paddingRight="15dp"
+android:paddingBottom="15dp"
+android:paddingTop="15dp"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">  
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    
+        <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/peek_privilege_iv"
+            android:padding="10dp"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/binoculars"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/peek_privilege_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/peek_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:text="@string/vip_peek_privilege"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Medium"/>
+              
+            <TextView
+            android:id="@+id/peek_privilege_tv"
+            android:layout_below="@id/peek_privilege_title_tv"
+            android:layout_toRightOf="@id/peek_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vip_peek_privilege_description"
+            style="@android:style/TextAppearance.Small"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+            
+        <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/visit_privilege_iv"
+            android:padding="10dp"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/signal_visit"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/visit_privilege_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/visit_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:text="@string/vip_visit_privilege"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Medium"/>
+              
+            <TextView
+            android:id="@+id/hometown_text"
+            android:layout_below="@id/visit_privilege_separator"
+            android:layout_toRightOf="@id/visit_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vip_visit_privilege_description"
+            style="@android:style/TextAppearance.Small"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+    
+        
+        <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/visibility_privilege_iv"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bar_star"
+            android:focusable="true" /> 
+            
+            <TextView
+            android:id="@+id/visibility_privilege_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/visibility_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:text="@string/vip_visibility_privilege"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Medium"/>
+              
+            <TextView
+            android:id="@+id/occupation_text"
+            android:layout_below="@id/visibility_privilege_separator"
+            android:layout_toRightOf="@id/visibility_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"  
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/vip_visibility_privilege_description" 
+            style="@android:style/TextAppearance.Small"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/meetup_privilege_iv"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/drinks"
+            android:focusable="true" /> 
+            
+            <TextView
+            android:id="@+id/meetup_privilege_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/meetup_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:text="@string/vip_rendezvous_privilege"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Medium"/>
+              
+            <TextView
+            android:id="@+id/occupation_text"
+            android:layout_below="@id/meetup_privilege_separator"
+            android:layout_toRightOf="@id/meetup_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"  
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/vip_rendezvous_privilege_description" 
+            style="@android:style/TextAppearance.Small"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout
+        android:orientation="horizontal" 
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/more_privilege_iv"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/barrier"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/more_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/more_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:text="@string/vip_more_privilege"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Medium"/>
+              
+            <TextView
+            android:layout_below="@id/more_separator"
+            android:layout_toRightOf="@id/more_privilege_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vip_more_privilege_description"
+            style="@android:style/TextAppearance.Small"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        
+        
+         <Button
+            android:id="@+id/become_vip_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/become_vip"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_black"
+        />   
+
+        
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,243 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll_view"
+android:paddingLeft="15dp"
+android:paddingRight="15dp"
+android:paddingBottom="15dp"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">  
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+	
+    	<!-- TIPS -->
+		<TextView
+		android:id="@+id/tips_separator"
+		android:layout_marginTop="20dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/tips"
+		android:textColor="@color/citrus_green"
+		style="@android:style/TextAppearance.Large"/>  
+   	    
+    
+		<RelativeLayout
+	    android:id="@+id/come_say_hi_row"
+	    android:layout_marginTop="5dp"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/come_and_say_hi"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>
+
+		<RelativeLayout
+	    android:id="@+id/buy_me_a_drink_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/buy_me_a_drink"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>	
+		
+		
+		<RelativeLayout
+	    android:id="@+id/invite_me_to_dance_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/invite_me_to_dance"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>	
+  
+		<RelativeLayout
+	    android:id="@+id/surprise_me_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/surprise_me"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>
+		
+		
+	   	<!-- DO NOT -->
+	   	
+	   	<TextView
+   	    android:id="@+id/donts_separator"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="@string/do_not"
+		android:textColor="@color/citrus_green"
+		style="@android:style/TextAppearance.Large"/>  
+  	    
+		<RelativeLayout
+	    android:id="@+id/use_pickup_lines_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_marginTop="5dp"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/use_pickup_lines"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>
+
+		<RelativeLayout
+	    android:id="@+id/corner_me_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/corner_me"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>	
+		
+		
+		<RelativeLayout
+	    android:id="@+id/be_persistent_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/be_persistent"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>	
+  
+		<RelativeLayout
+	    android:id="@+id/be_drunk_row"
+	    android:layout_width="fill_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:layout_height="30dip">
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="30dip" 
+			android:gravity="center_vertical"
+			android:text="@string/be_drunk"
+			android:textColor="@color/white"
+			style="@android:style/TextAppearance.Medium"
+			android:layout_alignParentLeft="true"/>
+			<ImageView
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		  	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+		    android:src="@drawable/checkmark" />
+		</RelativeLayout>
+		
+		
+		<TextView
+		android:id="@+id/extra_advice_separator"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="@string/extra_advice"
+		android:textColor="@color/citrus_green"
+		style="@android:style/TextAppearance.Large"/>  
+   	    
+		<TextView
+		android:id="@+id/extra_advice_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		style="@android:style/TextAppearance.Medium"
+		android:textColor="@color/white"/>
+	</LinearLayout>
+</ScrollView>

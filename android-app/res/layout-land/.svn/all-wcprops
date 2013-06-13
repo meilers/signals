@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/Signals/!svn/ver/178/res/layout-land
+END
+fragment_profile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Signals/!svn/ver/267/res/layout-land/fragment_profile.xml
+END
+fragment_places.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Signals/!svn/ver/207/res/layout-land/fragment_places.xml
+END
+fragment_people_inside.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Signals/!svn/ver/283/res/layout-land/fragment_people_inside.xml
+END
+fragment_invitations_clue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Signals/!svn/ver/275/res/layout-land/fragment_invitations_clue.xml
+END
+fragment_people_inside_peek.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Signals/!svn/ver/221/res/layout-land/fragment_people_inside_peek.xml
+END
+fragment_people.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Signals/!svn/ver/194/res/layout-land/fragment_people.xml
+END
+fragment_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/268/res/layout-land/fragment_menu.xml
+END
+fragment_people_nearby.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Signals/!svn/ver/198/res/layout-land/fragment_people_nearby.xml
+END
+fragment_meetups.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Signals/!svn/ver/212/res/layout-land/fragment_meetups.xml
+END
+fragment_my_profile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Signals/!svn/ver/267/res/layout-land/fragment_my_profile.xml
+END

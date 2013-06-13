@@ -1,0 +1,265 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll_view"
+            android:padding="@dimen/padding_large"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <!-- Layout bubble -->
+        <LinearLayout
+                android:id="@+id/bubble_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical" >
+
+            <ImageView
+                    android:id="@+id/triangle"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="10dip"
+                    android:layout_height="10dip"
+                    android:src="@drawable/triangle3" />
+
+
+            <LinearLayout
+                    android:background="@drawable/border_bubble_black"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/bubble_tv"
+                        android:gravity="left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/has_suggested_the_following_places_and_times_for_your_rendezvous"
+                        android:textColor="@color/soft_gray"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pick_a_place"
+                    android:textColor="@color/honeycombish_blue"
+                    android:textSize="30sp"/>
+
+
+            <RelativeLayout
+                    android:id="@+id/place0_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place1_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place2_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                    android:id="@+id/place3_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place4_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place5_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place6_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place7_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place8_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/place9_row"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                <include
+                        android:id="@+id/place_info_layout"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        layout="@layout/row_place_no_stats"
+                        />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/pick_a_time"
+                android:paddingBottom="8dp"
+                android:textColor="@color/honeycombish_blue"
+                android:textSize="30sp"/>
+
+        <RadioGroup
+            android:id="@+id/times_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:orientation="vertical"/>
+
+
+        <Button
+                android:id="@+id/done_btn"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/confirm_rendezvous"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_black"
+                />
+    </LinearLayout>
+</ScrollView>

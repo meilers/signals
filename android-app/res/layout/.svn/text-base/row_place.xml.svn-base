@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="match_parent"
+android:padding="10dip"
+android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView
+  	android:id="@+id/icon"
+	android:layout_width="30dp"
+	android:layout_height="30dp"
+	android:layout_marginRight="10dp"
+	android:layout_alignParentLeft="true"
+	android:layout_centerVertical="true"
+	android:src="@drawable/icon" />
+	
+    <LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/middle_layout"
+	android:layout_width="wrap_content"
+	android:layout_alignParentRight="true"
+	android:layout_marginLeft="10dp"
+	android:layout_centerVertical="true"
+ 	android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:id="@+id/female_layout"
+	 	android:orientation="horizontal" 
+	 	android:gravity="right|center"
+	 	android:layout_gravity="right|center_vertical" 
+		android:layout_width="wrap_content"
+	 	android:layout_height="22dp">
+	        <TextView
+	        android:id="@+id/female_text"
+	        android:layout_width="wrap_content"
+	        android:textColor="@color/white"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        />
+	        <ImageView
+	        android:id="@+id/female_symbol_img"
+	        android:layout_marginLeft="3dp"
+	        android:adjustViewBounds="true"
+	      	android:layout_width="15dp"
+	        android:layout_height="15dp"
+	        android:src="@drawable/female" />
+	    </LinearLayout>
+        <LinearLayout
+	 	android:id="@+id/in_between_layout"
+	 	android:orientation="vertical"
+	 	android:gravity="right|center"
+	 	android:layout_height="2dp"
+	 	android:layout_width="wrap_content"/>
+  	 	<LinearLayout
+	 	android:id="@+id/male_layout"
+	 	android:gravity="right|center_vertical"
+	 	android:orientation="horizontal"
+		android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content">
+	        <TextView
+	        android:id="@+id/male_text"
+	        android:layout_width="wrap_content"
+	        android:textColor="@color/white"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        /> 
+	        <ImageView
+	        android:id="@+id/male_symbol_img"
+	        android:layout_marginLeft="3dp"
+	      	android:layout_width="15dp"
+	        android:layout_height="15dp"
+	        android:layout_gravity="center"
+	        android:scaleType="fitCenter"
+	        android:src="@drawable/male" />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+  	android:layout_width="match_parent"
+  	android:layout_toRightOf="@id/icon"
+  	android:layout_toLeftOf="@id/middle_layout"
+    android:layout_height="wrap_content">
+        <TextView
+        android:id="@+id/top_text"
+        android:text="test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:id="@+id/bottom_text"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+	    android:textAppearance="?android:attr/textAppearanceSmall"/>
+	    <TextView
+        android:id="@+id/msg_text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:visibility="gone"
+	    android:textColor="@color/reddish"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+	    android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </LinearLayout>
+
+</RelativeLayout>

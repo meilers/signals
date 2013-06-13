@@ -1,0 +1,531 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll_view"
+android:paddingLeft="5dp"
+android:paddingRight="15dp"
+android:paddingBottom="15dp"
+android:paddingTop="15dp"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">  
+    <LinearLayout
+    android:id="@+id/my_profile_edit_about_layout"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    
+        <RelativeLayout 
+        android:id="@+id/about_me_layout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/about_me_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/about_me_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/about_me_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/about_me"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/about_me_tv"
+            android:layout_below="@id/about_me_separator"
+            android:layout_toRightOf="@id/about_me_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            
+            <EditText
+            android:id="@+id/about_me_et"
+            android:visibility="gone"
+            android:layout_below="@id/about_me_separator"
+            android:layout_toRightOf="@id/about_me_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+
+        
+        <RelativeLayout
+        android:id="@+id/occupation_layout"
+        android:orientation="horizontal" 
+        android:layout_marginTop="20dp" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/suitcase_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/briefcase3" 
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/suitcase_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/suitcase_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/occupation"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/occupation_tv"
+            android:layout_below="@id/suitcase_separator"
+            android:layout_toRightOf="@id/suitcase_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/occupation_et"
+            android:visibility="gone"
+            android:layout_below="@id/suitcase_separator"
+            android:layout_toRightOf="@id/suitcase_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+    
+    
+        
+        <RelativeLayout
+        android:id="@+id/education_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/gradhat_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/gradhat"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/gradhat_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/education"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/education_tv"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/education_et"
+            android:visibility="gone"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+        android:id="@+id/interests_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/guitar_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/camera"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/guitar_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/guitar_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/interests"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/interests_tv"
+            android:layout_below="@id/guitar_separator"
+            android:layout_toRightOf="@id/guitar_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/interests_et"
+            android:visibility="gone"
+            android:layout_below="@id/guitar_separator"
+            android:layout_toRightOf="@id/guitar_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+        android:id="@+id/activities_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/gradhat_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ticket"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/gradhat_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/activities"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/activities_tv"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/activities_et"
+            android:visibility="gone"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+        android:id="@+id/travel_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/gradhat_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/globe"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/gradhat_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/travel"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/travel_tv"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/travel_et"
+            android:visibility="gone"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+        android:id="@+id/favorite_music_layout" 
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"> 
+            <ImageView
+            android:id="@+id/note_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/headphones"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/note_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/note_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/music"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/favorite_music_tv"
+            android:layout_below="@id/note_separator"
+            android:layout_toRightOf="@id/note_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/favorite_music_et"
+            android:visibility="gone"
+            android:layout_below="@id/note_separator"
+            android:layout_toRightOf="@id/note_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+
+        
+        <RelativeLayout
+        android:id="@+id/favorite_drinks_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/martini_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/martini"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/martini_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/martini_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/drinks"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/favorite_drinks_tv"
+            android:layout_below="@id/martini_separator"
+            android:layout_toRightOf="@id/martini_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/favorite_drinks_et"
+            android:visibility="gone"
+            android:layout_below="@id/martini_separator"
+            android:layout_toRightOf="@id/martini_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>       
+
+        
+        <RelativeLayout
+        android:id="@+id/my_perfect_night_out_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+            <ImageView
+            android:id="@+id/gradhat_img"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/moon"
+            android:focusable="true" />
+            
+            <TextView
+            android:id="@+id/gradhat_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:text="@string/my_perfect_night_out"
+            android:textColor="@color/citrus_green"
+            style="@android:style/TextAppearance.Large"/>
+              
+            <TextView
+            android:id="@+id/my_perfect_night_out_tv"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+            <EditText
+            android:id="@+id/my_perfect_night_out_et"
+            android:visibility="gone"
+            android:layout_below="@id/gradhat_separator"
+            android:layout_toRightOf="@id/gradhat_img"
+            android:layout_marginTop="5dp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"/>  
+            
+        </RelativeLayout>
+        
+        
+            
+        
+    </LinearLayout>
+</ScrollView>

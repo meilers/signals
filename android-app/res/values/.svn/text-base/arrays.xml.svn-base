@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gps_radius_list">
+        <item>@string/none</item>
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>5 km</item>  
+    </string-array>
+
+    <string-array name="gps_radius_values_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>  
+        <item>3</item>  
+    </string-array>
+    
+    <string-array name="sex_list">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="sex_values_list">
+        <item>1</item>
+        <item>2</item>  
+    </string-array>
+    
+    <string-array name="orientation_list">
+        <item>@string/straight</item>
+        <item>@string/gay</item>
+        <item>@string/bi</item>
+    </string-array>
+
+    
+    <string-array name="orientation_values_list">
+        <item>1</item>
+        <item>2</item>    
+    </string-array>
+    
+    
+    
+	<!-- ACTIVITY PROFILE -->
+    <string-array name="msg_list1">
+        <item>@string/can_i_come_say_hi</item>
+        <item>@string/can_i_buy_you_a_drink</item>  
+        <item>@string/want_to_dance</item>  
+        <item>@string/personalized_msg</item>
+    </string-array>
+    
+    <string-array name="msg_list2">
+        <item>@string/im_on_the_dance_floor</item>  
+        <item>@string/find_me</item> 
+        <item>@string/one_mojito_please</item>
+        <item>@string/personalized_msg</item>
+    </string-array>
+    
+        <string-array name="menu_list">
+        <item>@string/bars</item>
+        <item>@string/people</item>
+        <item>@string/signals</item>
+        <item>@string/profile</item>
+    </string-array>
+    
+    
+   	<string-array name="menu_extras_list">
+        <item>@string/settings</item>
+        <item>@string/logout</item>
+    </string-array>
+    
+   	
+   	
+   	<!-- ACTIVITY MESSAGES -->
+
+    
+   	<string-array name="emoticons_codes">
+        <item>:)</item>
+        <item>:(</item>
+        <item>:P</item>
+        <item>:o</item>
+        <item>;)</item>
+        <item>:/</item>
+        <item>:\'(</item>
+        <item>&lt;3</item>
+    </string-array>
+</resources>

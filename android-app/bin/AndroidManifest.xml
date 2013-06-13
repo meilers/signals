@@ -1,0 +1,166 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.signals_app.signals"
+    android:versionCode="1"
+    android:versionName="1.0" >
+  
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" /> 
+        
+	<permission
+	    android:name="com.example.mapdemo.permission.MAPS_RECEIVE"
+	    android:protectionLevel="signature"/>
+
+	<uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+       
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+	    android:glEsVersion="0x00020000" 
+	    android:required="true"/>
+  
+ 	<uses-feature android:name="android.hardware.camera" />
+ 	<uses-feature android:name="android.hardware.camera.autofocus" />
+ 	
+ 	
+    <supports-screens android:smallScreens="true" 
+          android:normalScreens="true" 
+          android:largeScreens="true"
+          android:xlargeScreens="false" 
+          android:anyDensity="true" /> 
+    
+   	<application  
+   	    android:name=".activity.SignalsApplication"
+        android:icon="@drawable/icon" 
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme" > 
+
+	<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+
+	<meta-data
+	      android:name="com.google.android.maps.v2.API_KEY"
+	      android:value="AIzaSyDjINQvIrrNWzobGA1CgUNoB4dajkl0gKk"/>
+        
+        
+		<activity android:name="com.android.camera.CropImage" >
+		</activity>
+		    
+   	    <activity android:label="@string/app_name" android:name=".activity.LaunchActivity" android:theme="@android:style/Theme.NoDisplay" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+   	    <activity android:label="@string/app_name" android:name=".activity.IntroActivity" android:theme="@style/Theme.SignalsTheme" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        
+   	    	 
+   	    <activity android:label="" android:name=".activity.LoginActivity" android:theme="@style/Theme.SignalsTheme" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+       
+   	    <activity android:label="" 
+   	        android:name=".activity.RegisterActivity" 
+   	        android:theme="@style/Theme.SignalsTheme" 
+   	        android:uiOptions="splitActionBarWhenNarrow" 
+   	        android:screenOrientation="portrait">
+            <intent-filter>
+            </intent-filter>
+        </activity> 
+        
+   	    <activity android:label="" 
+   	        android:name=".activity.RegisterAccountActivity" 
+   	        android:theme="@style/Theme.SignalsTheme" 
+   	        android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+            </intent-filter>
+        </activity> 
+        
+        
+   	     
+        <activity android:label="" android:name=".activity.MainActivity" android:theme="@style/Theme.SignalsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            
+            <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+        </activity>
+
+        <activity android:label="" android:name=".activity.MapActivity" android:theme="@style/Theme.SignalsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                
+            </intent-filter>
+        </activity>
+        
+       	<activity android:label="" android:name="com.signals_app.signals.activity.PicsPagerActivity" android:theme="@style/Theme.SignalsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        
+       	<activity android:label="" android:name="com.signals_app.signals.activity.MyProfilePicsPagerActivity" android:theme="@style/Theme.SignalsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        
+        
+       	       	
+       	<activity android:name=".activity.PushReceiverActivity" android:theme="@style/Theme.Transparent" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.facebook.LoginActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name" />
+        
+        
+  	    <receiver android:name=".util.ConnectivityReceiver" android:exported="false">
+	   	<intent-filter>
+		      <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+	   	</intent-filter>
+		</receiver>
+	
+   	        
+  	    <!--  
+   	    <service android:name="com.parse.PushService" />
+		<receiver android:name="com.parse.ParseBroadcastReceiver">
+		  <intent-filter>
+		    <action android:name="android.intent.action.BOOT_COMPLETED" />
+		    <action android:name="android.intent.action.USER_PRESENT" />
+		  </intent-filter>
+		</receiver>
+		-->
+		
+
+	
+	
+    </application>
+
+</manifest>

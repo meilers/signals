@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:facebook="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/intro_layout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="@dimen/padding_large"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:paddingBottom="30dp"
+        android:gravity="center_horizontal">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="fill_parent">
+
+        <ImageView
+                android:id="@+id/logo_iv"
+                android:paddingTop="15dp"
+                android:src="@drawable/logo_l"
+                android:adjustViewBounds="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+                android:id="@+id/we_will_never_layout"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/facebook_lock" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Medium"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="10sp"
+                    android:text="@string/we_will_never_post_anything"/>
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_black"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_above="@id/we_will_never_layout"
+                android:layout_centerHorizontal="true"
+                android:drawablePadding="5dp"
+                android:text="@string/login_with"
+                android:drawableRight="@drawable/facebook"/>
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

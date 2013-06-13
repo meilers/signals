@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:facebook="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#88000000"
+android:padding="@dimen/padding_large"
+android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal">
+
+        <com.signals_app.signals.activity.AutoResizeTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="100sp"
+                android:ellipsize="none"
+                android:text="@string/THE_EXCITING"
+                android:textColor="@color/white">
+        </com.signals_app.signals.activity.AutoResizeTextView>
+
+        <com.signals_app.signals.activity.AutoResizeTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="100sp"
+                android:ellipsize="none"
+                android:text="@string/NEW_WAY"
+                android:textColor="@color/white">
+        </com.signals_app.signals.activity.AutoResizeTextView>
+
+        <com.signals_app.signals.activity.AutoResizeTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="100sp"
+                android:ellipsize="none"
+                android:text="@string/TO_MEET"
+                android:textColor="@color/white">
+        </com.signals_app.signals.activity.AutoResizeTextView>
+
+        <com.signals_app.signals.activity.AutoResizeTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="100sp"
+                android:ellipsize="none"
+                android:text="@string/IN_BARS"
+                android:textColor="@color/white">
+        </com.signals_app.signals.activity.AutoResizeTextView>
+    </LinearLayout>
+
+</RelativeLayout>

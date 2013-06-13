@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+android:id="@+id/root_row"
+android:shrinkColumns="1"
+android:layout_width="wrap_content"
+android:paddingTop="10dip"
+android:paddingBottom="10dip"
+android:layout_height="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+    android:id="@+id/icon_layout"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_width="50dp"
+    android:layout_height="50dp">
+	    <ImageView
+	    android:id="@+id/icon"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:src="@drawable/icon" />
+    </LinearLayout>
+    
+
+
+	    
+        <LinearLayout
+	    android:id="@+id/text_layout"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_marginRight="10dp"
+	    android:layout_height="50dp">
+	        <TextView
+	        android:id="@+id/top_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:textColor="@color/black"
+	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	        <TextView
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:id="@+id/bottom_text"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:textColor="@android:color/darker_gray"
+	        android:textAppearance="?android:attr/textAppearanceSmall"/>
+	    </LinearLayout>
+	    
+        <LinearLayout
+        android:id="@+id/sex_layout"
+        android:orientation="vertical"
+        android:gravity="right|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+    
+            <LinearLayout
+            android:id="@+id/female_layout"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                android:id="@+id/female_text"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+                <ImageView
+                android:id="@+id/female_symbol_img"
+                android:layout_marginLeft="3dp"
+                android:adjustViewBounds="true"
+                android:gravity="right|center_vertical"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/female_black" />
+            </LinearLayout>
+            <LinearLayout
+            android:id="@+id/in_between_layout"
+            android:orientation="vertical"
+            android:layout_height="2dp"
+            android:layout_width="20dp"/>
+            <LinearLayout
+            android:id="@+id/male_layout"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                android:id="@+id/male_text"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                /> 
+                <ImageView
+                android:id="@+id/male_symbol_img"
+                android:layout_marginLeft="3dp"
+                android:layout_width="15dp"
+                android:gravity="right|center_vertical"
+                android:layout_height="15dp"
+                android:src="@drawable/male_black" />
+            </LinearLayout>
+        </LinearLayout>
+        
+
+</TableRow>

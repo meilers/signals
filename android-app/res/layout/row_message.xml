@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:paddingRight="15dp"
+android:layout_height="70dp"
+android:layout_width="fill_parent">
+	   
+	<ImageView
+	android:id="@+id/profile_pic"
+	android:layout_alignParentLeft="true"
+	android:layout_width="70dp"
+	android:layout_height="70dp"/>
+  
+	<ImageView
+    android:id="@+id/star_iv"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="5dp"
+    android:src="@drawable/bar_star"/> 
+
+ 			
+	<TextView
+	android:id="@+id/date_text"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+	android:layout_alignParentRight="true"
+	android:layout_alignParentTop="true"
+	android:layout_marginTop="5dp"
+	android:layout_marginLeft="10dp"
+	android:gravity="center"
+	android:singleLine="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+ 			
+ 	  <TextView
+    android:id="@+id/username_text"
+        android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:gravity="left|center"
+    android:layout_toRightOf="@id/profile_pic"
+    android:layout_toLeftOf="@id/date_text"
+    android:singleLine="true"
+    android:textAllCaps="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+ 	  
+ 	  		   			
+	<LinearLayout
+    android:orientation="horizontal"
+        android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_toRightOf="@id/profile_pic"
+	android:gravity="center|left"
+   	android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <ImageView
+        android:id="@+id/status_img"
+      	android:layout_width="12dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="12dp"/>
+        
+   		<TextView
+   		android:id="@+id/signal_text"
+		android:layout_height="wrap_content"  
+   		android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+   			
+</RelativeLayout>	    	

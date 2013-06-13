@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:orientation="vertical" >
+	 
+        <RadioGroup
+        android:id="@+id/report_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+		    <RadioButton
+		        android:id="@+id/photo_issue_radio_btn"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:checked="true" 
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        android:text="@string/photo_issue" />
+		 
+		    <RadioButton
+		        android:id="@+id/photo_content_issue_radio_btn"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/photo_content_issue"
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        />
+		 
+		    <RadioButton
+		        android:id="@+id/underage_user_radio_btn"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        android:text="@string/underage_user" />
+		 
+		    <RadioButton
+		        android:id="@+id/scammer_radio_btn"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        android:text="@string/scammer" />
+		    
+		    <RadioButton
+		        android:id="@+id/fake_profile_radio_btn"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        android:text="@string/fake_profile" />
+		    
+		    <RadioButton
+		        android:id="@+id/innapropriate_behavior_radio_btn"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        android:text="@string/innapropriate_behavior" />
+		    
+		    <RadioButton
+		        android:id="@+id/other_radio_btn"
+		        android:layout_marginBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        style="@android:style/TextAppearance.Small"
+		        android:textColor="@color/white"
+		        android:text="@string/other" />
+		</RadioGroup>
+	    <LinearLayout
+	    android:id="@+id/comments_layout"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="80dp"
+	    android:layout_marginBottom="10dp"
+	    android:background="@color/black" >
+	       	
+	       	<EditText android:id="@+id/comments_edit_text" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/additional_comments"
+		    android:gravity="top|left"
+		    android:textColor="@color/white"
+		    style="@android:style/TextAppearance.Small"/>
+	       	
+    	</LinearLayout>
+	        
+	    <Button
+        android:id="@+id/submit_btn"
+        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:text="@string/submit"
+        android:baselineAligned="false"
+        android:background="@drawable/btn_white"
+        />
+	</LinearLayout>
+</ScrollView>

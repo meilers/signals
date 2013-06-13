@@ -1,0 +1,982 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    
+	        <LinearLayout
+	        android:layout_width="0dp"  
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:orientation="vertical" >
+                    
+            <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">     
+    
+                
+                <com.signals_app.signals.activity.AspectRatioImageView
+                android:id="@+id/profile_pic_img" 
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:adjustViewBounds="true" 
+                />  
+                
+    
+                <RelativeLayout
+                    android:id="@+id/photos_top_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_gravity="top">
+            
+                    <ImageView
+                        android:id="@+id/bar_star_img"
+                        android:visibility="gone"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:src="@drawable/bar_star" />
+                    
+                    
+                    <ImageView
+                        android:id="@+id/photos_top_iv"
+                        android:clickable="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="15dip"
+                        android:layout_height="15dip"
+                        android:src="@drawable/photos" />
+                    
+                    
+                    <TextView
+                        android:id="@+id/photos_top_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/photos_top_iv"
+                        android:singleLine="true"  
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        style="@android:style/TextAppearance.Small"/>
+                    
+                </RelativeLayout>
+                            
+                <RelativeLayout
+                android:id="@+id/basic_info_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="#88000000">
+    
+                    <TextView
+                    android:id="@+id/basic_info_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"  
+                    android:ellipsize="end"
+                    android:textColor="@color/white"
+                    style="@android:style/TextAppearance.Small"/>
+                        
+                    <TextView
+                    android:id="@+id/looking_for_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    style="@android:style/TextAppearance.Small"/>
+                                            
+                    <ImageView
+                    android:id="@+id/looking_for_img"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/looking_for_tv"
+                    android:layout_centerVertical="true"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/citrus_g" />
+                    
+                </RelativeLayout>
+            </FrameLayout>
+    
+            
+            <LinearLayout
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical" >
+                
+                <ImageView
+                        android:id="@+id/triangle"
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="10dip"
+                        android:layout_height="10dip"
+                        android:src="@drawable/triangle" />
+        
+                <RelativeLayout
+                android:id="@+id/tonight_layout" 
+                android:background="@drawable/border_bubble_white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                    <TextView
+                    android:id="@+id/tonight_tv"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    style="@android:style/TextAppearance.Medium"/>
+                    
+                    <EditText android:id="@+id/tonight_edit_tv"
+                        android:visibility="gone"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:gravity="center"
+                     android:maxLines="5"
+                     android:inputType="textShortMessage|textCapSentences"
+                     android:imeOptions="actionDone"
+                     android:textColor="@color/black"
+                     style="@android:style/TextAppearance.Medium"/>
+                    
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+               
+        <LinearLayout
+        android:layout_width="0dp"  
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical" >
+                    
+                
+                <!-- PROFILE -->
+                <LinearLayout
+	            android:id="@+id/profile_layout"
+	            android:layout_width="fill_parent"  
+	            android:layout_height="wrap_content"
+	            android:paddingRight="15dp"
+	            android:orientation="vertical" >
+                
+	                <RelativeLayout
+	                android:id="@+id/about_me_layout"
+	                android:layout_marginTop="12dp"
+	                android:orientation="horizontal"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/about_me_separator"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/about_me"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/about_me_tv"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_below="@id/about_me_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/about_me_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/about_me_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                </RelativeLayout>
+	                    
+	                <RelativeLayout
+	                android:id="@+id/occupation_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    <TextView
+	                    android:id="@+id/occupation_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/occupation"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/occupation_tv"
+	                    android:layout_below="@id/occupation_separator"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/occupation_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/occupation_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                </RelativeLayout>
+	            
+	            
+	                
+	                <RelativeLayout
+	                android:id="@+id/education_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/education_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/education"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/education_tv"
+	                    android:layout_below="@id/education_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/education_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/education_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                </RelativeLayout>
+	                
+	                
+	                <RelativeLayout
+	                android:id="@+id/interests_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/interests_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/interests"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/interests_tv"
+	                    android:layout_below="@id/interests_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/interests_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/interests_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                </RelativeLayout>
+	                
+	                
+	                <RelativeLayout
+	                android:id="@+id/activities_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/activities_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/activities"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/activities_tv"
+	                    android:layout_below="@id/activities_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/activities_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/activities_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                    
+	                </RelativeLayout>
+	                
+	                <RelativeLayout
+	                android:id="@+id/travel_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/travel_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/travel"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/travel_tv"
+	                    android:layout_below="@id/travel_separator"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/travel_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/travel_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                </RelativeLayout>
+	                
+	                
+	                
+	                <RelativeLayout
+	                android:id="@+id/music_layout" 
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    <TextView
+	                    android:id="@+id/music_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/music"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/music_tv"
+	                    android:layout_below="@id/music_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/music_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/music_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                    
+	                </RelativeLayout>
+	                
+	        
+	                
+	                <RelativeLayout
+	                android:id="@+id/drinks_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/drinks_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/drinks"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/drinks_tv"
+	                    android:layout_below="@id/drinks_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/drinks_et"
+	                    android:visibility="gone"
+	                    android:layout_below="@id/drinks_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionNext"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                </RelativeLayout>       
+	        
+	                
+	                <RelativeLayout
+	                android:id="@+id/my_perfect_night_out_layout"
+	                android:orientation="horizontal"
+	                android:layout_marginTop="12dp"
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content">
+	                    
+	                    <TextView
+	                    android:id="@+id/my_perfect_night_out_separator"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_gravity="bottom"
+	                    android:text="@string/my_perfect_night_out"
+	                    android:textColor="@color/white"
+	                    style="@android:style/TextAppearance.Medium"/>
+	                      
+	                    <TextView
+	                    android:id="@+id/my_perfect_night_out_tv"
+	                    android:layout_below="@id/my_perfect_night_out_separator"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginLeft="15dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>  
+	                    
+	                    <EditText
+	                    android:id="@+id/my_perfect_night_out_et"
+	                    android:visibility="gone"
+	                    android:layout_marginLeft="4dp"
+	                    android:layout_below="@id/my_perfect_night_out_separator"
+	                    android:inputType="textNoSuggestions"
+	                    android:imeOptions="actionDone"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    style="@android:style/TextAppearance.Small"/>
+	                    
+	                </RelativeLayout>
+                </LinearLayout>
+            
+                    
+            <!-- Activity -->
+            
+            <LinearLayout
+            android:id="@+id/stats_layout"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical|left" 
+            android:background="@drawable/border_bubble_blue"
+            android:layout_height="wrap_content">
+                    
+                
+                <TextView
+                android:id="@+id/top_frequented_bars_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top_frequented_bars"
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Medium"/>  
+                    
+               
+                <LinearLayout
+                android:id="@+id/top_frequented_bar1_row"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:gravity="center_vertical|left" 
+                android:layout_height="20dip">
+                    
+                    <ImageView
+                    android:id="@+id/top_frequented_bar1_genre_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="15dip"
+                    android:layout_height="15dip"
+                    android:src="@drawable/martini" />
+                
+                    <TextView
+                    android:id="@+id/top_frequented_bar1_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip" 
+                    android:gravity="center_vertical"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    style="@android:style/TextAppearance.Small"/>
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                android:id="@+id/top_frequented_bar2_row"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|left" 
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent" 
+                android:layout_height="20dip">
+                    <ImageView
+                    android:id="@+id/top_frequented_bar2_genre_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="15dip"
+                    android:layout_height="15dip"
+                    android:src="@drawable/martini" />
+                
+                    <TextView
+                    android:id="@+id/top_frequented_bar2_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip" 
+                    android:gravity="center_vertical"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    style="@android:style/TextAppearance.Small"/>
+                </LinearLayout>
+                
+                
+                
+                <LinearLayout
+                android:id="@+id/top_frequented_bar3_row"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|left" 
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent" 
+                android:layout_height="20dip">
+                    <ImageView
+                    android:id="@+id/top_frequented_bar3_genre_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="15dip"
+                    android:layout_height="15dip"
+                    android:src="@drawable/martini" />
+                
+                    <TextView
+                    android:id="@+id/top_frequented_bar3_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip" 
+                    android:gravity="center_vertical"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    style="@android:style/TextAppearance.Small"/>
+                </LinearLayout>
+                
+                
+                <TextView
+                android:id="@+id/collected_bar_stars_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="@string/collected_bar_stars"
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Medium"/>   
+                
+                <LinearLayout
+                android:id="@+id/collected_bar_stars_layout"        
+                android:orientation="vertical"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+            
+            <!-- Approach -->
+            <LinearLayout
+            android:id="@+id/approach_layout"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            </LinearLayout>
+                
+            <LinearLayout
+            android:id="@+id/edit_approach_layout"
+            android:visibility="visible"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+    
+    
+                <!-- TIPS --> 
+                <TextView
+                android:id="@+id/tips_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/approach"
+                android:textColor="@color/white"
+                style="@android:style/TextAppearance.Medium"/>  
+               
+                <RelativeLayout
+                android:id="@+id/dont_approach_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:textStyle="italic"
+                    android:text="@string/i_dont_want_to_be_approached"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/dont_approach_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                </RelativeLayout>   
+                
+            
+                <RelativeLayout
+                android:id="@+id/tip_come_say_hi_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/come_and_say_hi"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/tip_come_say_hi_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                </RelativeLayout>
+        
+                <RelativeLayout
+                android:id="@+id/tip_buy_me_a_drink_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/buy_me_a_drink"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/tip_buy_me_a_drink_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                </RelativeLayout>   
+                
+                
+                <RelativeLayout
+                android:id="@+id/tip_invite_me_to_dance_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/invite_me_to_dance"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/tip_invite_me_to_dance_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                </RelativeLayout>   
+          
+                <RelativeLayout
+                android:id="@+id/tip_make_me_laugh_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/make_me_laugh"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/tip_make_me_laugh_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                </RelativeLayout>   
+                
+                
+                <RelativeLayout
+                android:id="@+id/tip_meet_my_friends_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/meet_my_friends"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/tip_meet_my_friends_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                    
+                </RelativeLayout>   
+                
+                
+                
+                <RelativeLayout
+                android:id="@+id/tip_surprise_me_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/surprise_me"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/tip_surprise_me_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                    
+                </RelativeLayout>
+                
+                
+                <RelativeLayout
+                android:id="@+id/dont_be_drunk_row"
+                android:layout_marginLeft="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/dont_be_drunk"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/dont_be_drunk_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                android:id="@+id/dont_expect_anything_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/dont_expect_anything"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/dont_expect_anything_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    
+                    
+                    
+                </RelativeLayout>
+        
+                
+                <RelativeLayout
+                android:id="@+id/dont_be_persistent_row"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="30dip">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip" 
+                    android:gravity="center_vertical"
+                    android:text="@string/dont_be_persistent"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_alignParentLeft="true"/>
+                    
+                    <CheckBox
+                    android:id="@+id/dont_be_persistent_cb"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                </RelativeLayout>   
+                
+                <EditText
+                    android:id="@+id/personal_advice_et"
+                    android:visibility="visible"
+                    android:layout_marginLeft="4dp"
+                    android:inputType="textNoSuggestions"
+                    android:imeOptions="actionDone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/type_something_here"
+                    style="@android:style/TextAppearance.Small"
+                    android:textColor="@android:color/darker_gray"/>  
+                           
+            </LinearLayout>
+    
+	         <!--  VIP -->
+	        <Button
+	        android:id="@+id/become_vip_btn"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="10dp"
+	        android:drawableLeft="@drawable/barrier"
+	        android:drawablePadding="10dip"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/become_vip"
+	        android:textColor="@color/white"
+	        android:background="@drawable/btn_green"
+	        />                
+            
+
+        
+            
+            
+            </LinearLayout>
+            </TableRow>
+    </ScrollView>
+

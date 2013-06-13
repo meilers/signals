@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Signals/!svn/ver/248/src/com/signals_app/signals/model
+END
+AppState.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/model/AppState.java
+END
+PlacesViewState.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/model/PlacesViewState.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Signals/!svn/ver/278/src/com/signals_app/signals/model/Constants.java
+END
+City.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Signals/!svn/ver/282/src/com/signals_app/signals/model/City.java
+END
+Education.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/model/Education.java
+END
+Place.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Signals/!svn/ver/277/src/com/signals_app/signals/model/Place.java
+END
+Work.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Signals/!svn/ver/112/src/com/signals_app/signals/model/Work.java
+END

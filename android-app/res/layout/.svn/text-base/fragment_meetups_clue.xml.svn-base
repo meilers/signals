@@ -1,0 +1,112 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+	<LinearLayout
+    android:id="@+id/notifs_layout"
+	android:orientation="vertical"
+	android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+        <View
+        android:id="@+id/potential_meetups_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#44aaaaaa"/>
+	    <LinearLayout
+        android:id="@+id/potential_meetups_layout"
+	    android:orientation="horizontal"
+	    android:paddingRight="15dp"
+	    android:paddingLeft="15dp"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/row_background"
+	    android:layout_height="60dp"
+	    android:clickable="true">
+	        
+	        <TextView
+	        android:id="@+id/potential_meetups_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/potential"
+	        android:textColor="@color/white"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	            
+	        
+	        <TextView
+	        android:id="@+id/potential_meetups_notif_tv"
+	        android:layout_width="fill_parent"
+	        android:gravity="right"
+	        android:layout_gravity="center_vertical|right" 
+	        android:textColor="@color/white"
+	        android:layout_height="wrap_content"
+	        android:text="3"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        />
+	    </LinearLayout>
+	    <View
+        android:id="@+id/confirmed_meetups_separator"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#44aaaaaa"/>
+	    
+	    <LinearLayout
+        android:id="@+id/confirmed_meetups_layout"
+	    android:orientation="horizontal"
+	    android:paddingRight="15dp"
+	    android:paddingLeft="15dp"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/row_background"
+	    android:layout_height="60dp"
+	    android:clickable="true">
+	        
+	        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="@color/white"
+	        android:text="@string/confirmed"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	            
+	        
+	        <TextView
+	        android:id="@+id/confirmed_meetups_notif_tv"
+	        android:layout_width="fill_parent"
+	        android:gravity="right"
+	        android:layout_gravity="center_vertical|right" 
+	        android:textColor="@color/white"
+	        android:text="1"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        />
+	    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_above="@id/notifs_layout"
+    android:padding="15dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">  
+    
+        <TextView
+        android:id="@+id/meetups_clue_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+        
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="40dp"
+        android:src="@drawable/arrow_blue"/>  
+        
+    </LinearLayout>
+</RelativeLayout>

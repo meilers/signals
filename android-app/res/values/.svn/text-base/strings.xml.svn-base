@@ -1,0 +1,732 @@
+<resources>
+	<string name="app_id">433704539998488</string>
+
+    <string name="app_name">Signals</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+    <string name="cancel">Cancel</string>    
+    <string name="done">Done</string>   
+    <string name="Continue">Continue</string>
+    <string name="learn_more">Learn more</string>  
+    
+	<string name="vip_restricted">VIP Restricted</string>   
+    <string name="more_info">More info</string>   
+    <string name="not_now">Not now</string> 
+    
+    <string name="ok">OK</string>
+    
+    <string name="nearby">Nearby</string>
+     
+    <string name="At">At</string>
+    <string name="at">at</string>
+    <string name="in">in</string>
+    
+    <string name="she">she</string>
+    <string name="he">he</string>
+    
+    <string name="map">Map</string>
+    <string name="bar_map">Bar Map</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    
+    <string name="this_hour">This Hour</string>
+    <string name="tonight">Tonight</string>
+    <string name="tonight_with">Tonight with</string>
+    <string name="earlier_tonight">Earlier Tonight</string>
+     
+    
+    <string name="block_user">Blocked User</string>
+    <string name="blocked_user">Blocked User</string>
+    <string name="are_you_sure_you_want_to_block_this_user">Are you sure you want to block this user?</string>
+    
+    <string name="tonight">Tonight</string>
+    <string name="tonight_at">Tonight at</string>
+    
+    
+    
+    <!-- ACTIVITY INTRO -->
+    <string name="register">Register</string>
+
+    <!-- FRAGMENT INTRO 1 -->
+    <string name="we_will_never_post_anything">We will NEVER post anything without your permission</string>
+    <string name="login_with">Login with</string>
+
+
+
+    <!-- FRAGMENT INTRO 2 -->
+    <string name="THE_EXCITING">THE EXCITING</string>
+    <string name="NEW_WAY">NEW WAY</string>
+    <string name="TO_MEET">TO MEET</string>
+    <string name="IN_BARS">IN BARS</string>
+
+
+    <!-- FRAGMENT INTRO 3 -->
+    <string name="PLAN">PLAN</string>
+    <string name="RENDEZ_VOUS">RENDEZ-VOUS</string>
+    <string name="OR"> OR </string>
+    <string name="MEET">MEET</string>
+    <string name="LIVE_AT_THE_BAR">LIVE AT THE BAR</string>
+
+
+    <!-- FRAGMENT INTRO 4 -->
+    <string name="FAQ">FAQ</string>
+    <string name="Why_do_I_have_to_log_in">Why do I have to login with Facebook?</string>
+    <string name="SIGNALS_screen_out_fakes">SIGNALS screen out fakes, creeps and scammers. We need to certify that you are a real person. Don\'t worry, we will NEVER post anything on your Facebook page without your permission.</string>
+    <string name="How_do_rendez_vous_work">How do rendez-vous work?</string>
+    <string name="Every_day_you_can">Every day, you can anonymously invite people for a drink. If they invite you back, we\'ll suggest different bars and times for a rendez-vous. When confirmed, just check into the bar to find your partner!</string>
+    <string name="What_happens_when_I_check_in">What happens when I check into a bar?</string>
+    <string name="You_become_visible_to_others">You become visible to others in the bar, who can start sending your signals like flirts, messages or votes. You can also choose not to be approached, like when you\'re on a rendez-vous.</string>
+    <string name="Whats_a_Bar_Star">What\'s a Bar Star?</string>
+    <string name="Every_hour_people_in_each_bar">Every hour, people in each bar vote for the sexiest guy and girl inside. We then elect two Bar Stars, who gain infinite bragging rights in the city for an hour.</string>
+
+
+
+    
+    <!-- ACTIVITY REGISTER 1 -->
+    <string name="sign_up">Sign Up!</string>
+    
+    <string name="use_facebook">Join faster by using your Facebook info. Don\'t worry, we won\'t post anything to your account.</string>
+    
+    
+    <string name="my_photo">My Photo</string>
+    <string name="add_a_photo">Add a photo</string>
+    <string name="add_photo_msg"><![CDATA[
+        <font color="#CB3334"><b>Tip:</b></font><font color="black">&nbsp;Clear photos of your face make the best intros. Objects, kids, nudity, etc. aren\'t allowed. Photos that don\'t stick to the rules will be deleted.</font>
+		]]></string>
+    <string name="take_a_new_photo">Take a New Photo</string>
+    <string name="choose_existing_photo">Choosing existing photo</string>
+    
+    <string name="username">Username</string>
+    <string name="my_birthday">My Birthday</string>
+    <string name="i_am_a">I am a</string>
+    <string name="interested_in">Interested In</string>
+    <string name="between_the_ages_of">Between the ages of</string>
+    <string name="and">and</string>
+    <string name="hometown">Hometown</string>
+    
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+       
+    <string name="straight">Straight</string>
+    <string name="gay">Gay</string>
+    <string name="bi">Bi</string>
+
+    <string name="My_Location">My Location</string>
+
+    <string name="i_agree"><![CDATA[
+        <font color="white">I agree to the </font><a href="test"><font color="FF00CC">Terms of Service</font></a><font color="white"> and </font><a href="test">Privacy Policy</a>
+		]]></string>
+    
+    <string name="error_no_interests">Please select which gender you are interested in.</string>
+    <string name="error_not_18">Can we see some I.D.? You must be over 18 to join.</string>
+    <string name="error_no_profile_pic">Hey good looking, we want a picture!</string>
+    <string name="error_did_not_agree">You must agree to the terms to continue.</string>
+    
+    
+    <!-- ACTIVITY REGISTER 2 -->
+    <string name="almost_done">You\'re almost done. Choose a username and a password. Remember, your username will be visible to others.</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    
+    <string name="error_username_too_short">Username must be between 3 and 16 characters long.</string>
+    <string name="error_password_too_short">Password must be between 5 and 16 characters long.</string>
+    <string name="error_email_not_valid">Please enter a valid email address.</string>
+    <string name="error_username_unavailable1">Username</string>
+    <string name="error_username_unavailable2">is unavailable</string>
+    <string name="error_email_unavailable1">Email</string>
+    <string name="error_email_unavailable2">is unavailable</string>
+
+    <!-- ACTIVITY REGISTER 3 -->
+
+
+    <!-- ACTIVITY REGISTER 4 -->
+    <string name="Fun_Stuff">Fun Stuff</string>
+
+
+    <!-- ACTIVITY LOGIN -->
+    <string name="login_msg">Going out tonight? Log in to your account. Let\'s make this a night to remember.</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><![CDATA[
+    <a href="test">Forgot password?</a>
+	]]></string>
+		
+ 
+    
+    <!-- ACTIVITY MAIN -->
+    <string name="error_you_checked_out">You checked out from</string>
+    <string name="because_youre_too_far_away">because you are too far from that location.</string>
+    
+    <!-- ACTIVITY PREFS -->
+    <string name="settings">Settings</string>
+    <string name="none">None</string>
+    <string name="current_city_preference">Current city</string>
+    <string name="gps_preferences">GPS Preferences</string>
+    <string name="title_gps_on_preference">GPS On</string>
+    <string name="title_gps_radius_preference">GPS Radius</string>
+    <string name="dialog_gps_radius_preference">Choose GPS radius</string>
+
+    
+
+    
+    
+    
+    
+    <!-- FRAGMENT MENU --> 
+    <string name="bars">Bars</string>
+    <string name="people_inside">People Inside</string>
+    <string name="people_nearby">People Nearby</string>
+    <string name="signals">Signals</string>
+    <string name="profile">Profile</string>
+
+    <string name="preferences">Preferences</string>
+    <string name="logout">Logout</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+    
+    <string name="clubs_caps">CLUBS</string>
+    <string name="lounges_caps">LOUNGES</string>
+    <string name="bars_caps">BARS</string>
+    <string name="people_caps">PEOPLE</string>
+    
+    <string name="menu_option_edit_profile">Edit Profile</string>
+    <string name="menu_option_preferences">Preferences</string>
+    <string name="menu_option_logout">Logout</string>
+
+    <string name="check_into_a_bar_to_start_the_fun">Check into a bar\nto start the fun</string>
+    
+    <!-- FRAGMENT BARS --> 
+    <string name="bars_nearby">Bars Nearby</string> 
+    
+    <string name="no_places_msg1">There are currently no bars in our system for</string>  
+    <string name="no_places_msg2">We\'re working hard to fix that!</string> 
+    <string name="near_you">Near you</string> 
+    
+        <!-- FRAGMENT PLACE -->
+	    <string name="checkin">Check in</string>
+	    <string name="checkout">Check out</string>  
+        <string name="checkout_from">Check out from</string> 
+	    
+	    <string name="checkout_change_place_msg1">You are currently checked in at </string> 
+	    <string name="checkout_change_place_msg2">Do you wish to leave?</string> 
+	    
+	    <string name="in">in</string> 
+	    <string name="meters">meters</string> 
+	    <string name="peek">Peek</string>  
+	    
+	    <string name="guys">guys</string> 
+	    <string name="girls">girls</string> 
+	    <string name="users">users</string> 
+	    <string name="age">Age</string>  
+	    <string name="years_old">years old</string>  
+	    <string name="checked_in_recently">Checked-In recently&#8230;</string>   
+	    <string name="no_users_msg">No one has arrived yet&#8230; Be the first to check-in!</string>   
+    
+	    
+	    
+	    
+    <!-- FRAGMENT PEOPLE -->
+    <string name="people">People</string>
+    <string name="girls_are_checked_in">girls are checked in</string>
+    <string name="guys_are_checked_in">guys are checked in</string>
+    <string name="users_are_checked_in">users are checked in</string>
+    <string name="new1">new</string> 
+    
+    <string name="check_out">Check Out</string>  
+    <string name="leave_bar">Leave Bar</string>  
+    <string name="refresh">Refresh</string>  
+    
+    <string name="outside_msg">Check into a bar to start the fun. People are waiting for you there.</string> 
+    <string name="peeking_no_one_there_msg">Be the first to check in! First comers get more attention.</string> 
+    <string name="checkedin_no_one_there_msg">We\'ll tell you when someone arrives.\nIn the meanwhile, why not plan a rendez-Vous?</string> 
+    
+    <string name="checked_in">Checked in</string>  
+    <string name="minutes_ago">minutes ago</string> 
+    <string name="check_in_so_you_can">Check into a bar near you to become visible to others!</string>   
+    <string name="no_one">No one has checked in yet, but stay online so they can see you when they arrive. You\'ll also be able to receive special offers from the house!</string>
+    <string name="peeking_no_one">No one has checked in yet.</string>
+    <string name="checkin_first">You are in peeking mode. Check in to see full profiles.</string>   
+    <string name="restricted_access">Access restricted</string>   
+    <string name="peeking_caps">PEEKING</string>  
+    <string name="stop_peeking">Stop Peeking</string>
+    <string name="new_people">new people</string>
+    <string name="new_person">new person</string>
+    
+    <string name="add_me_here">Add me here</string>
+    
+    
+    <!-- FRAGMENT PEOPLE NEAR YOU -->
+    <string name="people_nearby">People Nearby</string>
+    <string name="outside">Outside</string>
+    <string name="hot_right_now">Hot Right Now</string>
+    
+    <!-- FRAGMENT SIGNALS -->
+    <string name="signals_msg">Watch out for the signals others are giving you. They can flirt with you, or even vot </string> 
+    
+    
+    <string name="night">night</string> 
+    <string name="back">Back</string>  
+    <string name="view_profile">View Profile</string>  
+    <string name="choose_message">Choose Message</string> 
+    <string name="send_message">Send Message</string> 
+    <string name="reply">Reply</string> 
+    <string name="flirt_back">Flirt back</string> 
+    <string name="flirts_caps">FLIRTS</string> 
+    <string name="msgs_caps">MESSAGES</string> 
+    
+    <string name="received">Received</string>   
+    <string name="sent">Sent</string> 
+    
+    
+    <string name="flirted_you_signal_description">sent you a flirt</string>
+    <string name="you_flirted_signal_description">You flirted with</string>
+     
+    <string name="messaged_you_signal_description">sent you a message</string>
+    <string name="you_messaged_signal_description">You sent a message to</string>
+    	
+    <string name="pers_messaged_you_signal_description">sent you a personalized message</string>
+    <string name="you_pers_messaged_signal_description">You sent a personalized message to</string>
+    
+    <string name="flirt_restricted_error_title">Can\'t send flirt</string>
+    <string name="message_restricted_error_title">Can\'t send message</string>
+     
+    
+    <string name="become_vip_to_see_visits">Become a VIP member to see who visited your profile!</string>
+    
+    
+    	<!-- FRAGMENT VOTES -->
+    	<string name="current_votes">Current Votes: </string>  
+    	<string name="voted_for_you">Voted for you</string>
+    	
+    	<!-- FRAGMENT FLIRTS -->
+    	<string name="flirted_with_you">Flirted with you</string>
+    	
+    	
+    	<!-- FRAGMENT MESSAGES --> 
+    	
+    	
+    	
+    		<!-- FRAGMENT MESSAGES CHAT --> 
+    		
+    		<string name="type_your_message_here">Type your message here</string>
+    		
+    		<string name="error_check_in_at1">Check in at</string>
+    		<string name="error_check_in_at2">to communicate with</string>
+    		
+    	 	<string name="error_wait_for_a_reply1">Wait for</string>
+    		<string name="error_wait_for_a_reply2">to reply!</string>
+    		
+    		<string name="has_checked_out">has checked out</string>
+    		<string name="has_checked_out_from">has checked out from</string> 
+    		
+    	<!-- FRAGMENT VISITS --> 
+    	<string name="visited_you">Visited you</string>
+    
+    	
+    	
+    <!-- FRAGMENT RENDEZVOUS -->
+    <string name="rendezvous">Rendez-Vous</string>
+    <string name="invitations">Invitations</string>
+    <string name="invite">Invite</string>
+    <string name="no_thanks">No thanks</string>
+
+    <string name="browse_people">Browse People</string>
+
+    <string name="potential">Potential</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="potential_rendezvous">Potential Rendez-Vous</string>
+    <string name="confirmed_rendezvous">Confirmed Rendez-Vous</string>
+    
+    <string name="meet">Meet</string>
+    <string name="plan_rendezvous">Plan Rendez-Vous</string>
+    
+    <string name="rendezvous_sent">Rendez-Vous Sent</string>
+    <string name="view_rendezvous">View Rendez-Vous</string>
+    
+    
+    <string name="midnight">Midnight</string>
+    
+    
+    
+        <!-- FRAGMENT POTENTIAL RENDEZVOUS PLAN-->
+        <string name="suggest_places">Suggest Places</string>
+	    <string name="suggest_times">Suggest Times</string>
+	    <string name="suggested_places">Suggested Places</string>
+	    <string name="suggested_times">Suggested Times</string>
+
+        <string name="no_place_suggestions">No place suggestions</string>
+        <string name="no_time_suggestions">No time suggestions</string>
+        <string name="please_choose_at_least_one_place_for_a_rendezvous">Please suggest at least one place for a rendez-vous.</string>
+        <string name="please_choose_at_least_one_time_for_a_rendezvous">Please suggest at least one time for a rendez-vous.</string>
+
+        <string name="rendezvous_cancelled">Rendez-Vous Cancelled</string>
+        <string name="its_after_two_am">It\'s after 2 AM, probably not a good idea to plan a rendez-vous now. Try again tomorrow!</string>
+        <string name="the_rendezvous_time_has_passed">Unfortunately, The suggested rendez-vous times have passed.</string>
+
+
+        <string name="send_suggestions">Send Suggestions</string>
+        <string name="suggestions_sent">Suggestions Sent</string>
+        <string name="once">Once</string>
+        <string name="picks_out_a_time_and_place">picks out a time and place in your list, we\'ll confirm your rendez-vous.</string>
+
+        <string name="send_to">Send to</string>
+
+        <!-- FRAGMENT POTENTIAL RENDEZVOUS CONFIRM -->
+        <string name="has_suggested_the_following_places_and_times_for_your_rendezvous">has suggested the following places and times for your rendez-vous tonight. Make a decision to confirm.</string>
+        <string name="pick_a_place">Pick a Place</string>
+        <string name="pick_a_time">Pick a Time</string>
+        <string name="please_pick_a_place_for_a_rendezvous">Please pick a place for a rendez-vous.</string>
+        <string name="please_pick_a_time_for_a_rendezvous">Please pick a time for a rendez-vous.</string>
+
+        <string name="confirm_rendezvous">Confirm Rendez-Vous</string>
+        <string name="rendezvous_confirmed">Rendez-Vous Confirmed</string>
+
+        <string name="youre_meeting">Nice! You\'re meeting</string>
+        <string name="tonight_at">Tonight at</string>
+        <string name="dont_forget_to_checkin_at1">\n\nDon\'t forget to check in when you arrive. You might have to chat with</string>
+        <string name="dont_forget_to_checkin_at2_m">to find him inside.</string>
+        <string name="dont_forget_to_checkin_at2_f">to find her inside.</string>
+
+        <string name="you_can_cancel_the_rendezvous">You can cancel the rendez-vous anytime, but don\'t forget to notify us.</string>
+        <string name="CANCELLED">CANCELLED</string>
+
+    <string name="rendezvous">Rendez-Vous</string>
+    <string name="rendezvous_with">Rendez-Vous with</string>
+    <string name="view_bar">View bar</string>
+    <string name="decline">Decline</string>
+    <string name="decline_reason">Decline Reason (Optional)</string>
+    <string name="says">says...</string>
+
+    <string name="invitations_no_clue">Invite people\nto have a drink\nwith you tonight.</string>
+    <string name="invitations_clue_msg1">out of the</string>
+    <string name="invitations_clue_msg2">\nfollowing people\ninvited you for a\ndrink tonight.</string>
+    <string name="invitations_desc_no_clue">* Invitations are anonymous\nuntil a mutual interest is found.</string>
+    <string name="invitations_desc_clue">* Find out who and\nwe\'ll suggest a rendez-vous.</string>
+    
+    
+    <!-- FRAGMENT MY PROFILE -->
+    <string name="enter_message">Enter Message</string>   
+    <string name="what_are_you_up_to_tonight">What are you up to tonight?</string>
+    <string name="become_vip">Become VIP</string>   
+    
+        <!-- FRAGMENT MY PROFILE EDIT -->
+        <string name="basic_information">Basic Information</string>  
+        <string name="basic_info">Basic Info</string> 
+    
+        <string name="disable_approach">Disable Approach</string> 
+        <string name="dont_approach_confirmation">Others won\'t be able to flirt or send messages to you. However, they can still vote for you for Bar Star.</string> 
+    
+    
+    
+    
+    
+    <!-- FRAGMENT PROFILE -->
+    <string name="male_short">M</string>   
+    <string name="female_short">F</string>    
+    <string name="online">Online</string>  
+    <string name="offline">Offline</string>   
+    
+    <string name="wrist1">To get closer</string> 
+    <string name="wrist2">To see what happens</string> 
+    
+    <string name="tonight_hint">Tonight&#8230;</string>
+    <string name="hometown">Hometown</string>
+    <string name="languages">Languages</string>
+    <string name="work">Work</string>
+    <string name="education">Education</string>
+    <string name="bars">Bars</string>
+    <string name="music">Music</string>
+    <string name="movies">Movies</string>
+	<string name="tv">Television</string>
+    <string name="books">Books</string>
+    <string name="other">Other</string>
+	<string name="about_me">About me</string>	
+	<string name="quotations">Favourite quotations</string>	
+	
+	<string name="looking_for">Looking For</string>  
+    <string name="looking_for_optional">Looking For (Optional)</string>  
+ 
+    <string name="approach_me">Approach me</string>	
+    <string name="dont_bother">Don\'t bother</string>	
+
+ 
+    <string name="right_match">The right match</string>	
+    <string name="im_open">Whatever, I\'m open!</string>	
+    <string name="no_strings">No strings attached</string>	
+	
+	<string name="edit_profile">Edit Profile</string>
+       
+    <string name="to">to</string>
+    <string name="present">present</string>
+    
+    <string name="more">More</string>
+    <string name="full_profile">Full Profile</string>
+    
+    <string name="user_checked_out">User checked out</string>
+   	<string name="user_changed_status">User changed status</string>
+    	
+   	<string name="user_unavailable">User unavailable</string>	
+   	<string name="is_unavailable">is unavailable</string>
+   	
+    <string name="info">Info</string>
+    
+    	<!-- PROFILE ABOUT FRAGMENT -->
+    	<string name="self_summary">Self-Summary</string>
+    	
+    	<string name="about_me">About Me</string>
+    	<string name="occupation">Occupation</string>
+        <string name="education">Education</string>
+        
+        <string name="interests">Interests</string>
+        <string name="activities">Activities</string>
+        <string name="travel">Travel</string>
+        
+        <string name="music">Music</string>
+        <string name="drinks">Drinks</string>
+        <string name="favorite_music">Favorite Music</string>
+        <string name="favorite_drinks">Favorite Drinks</string>
+        <string name="my_perfect_night_out">My Perfect Night Out</string>
+    	
+    	
+    <string name="photos">Photos</string>
+    	
+    	<string name="photo">Photo</string>
+    	<string name="photos_of">Photos of</string>
+    	<string name="photos_of_you">Photos of you</string>
+    	<string name="other_photos">Other photos</string>
+    	
+    	<string name="add">Add</string>
+    	<string name="delete">Delete</string>
+    	<string name="deleting_photo">Deleting photo&#8230;</string>
+    	<string name="uploading_photo">Uploading photo&#8230;</string>
+    	<string name="make_profile_picture">Make profile picture?</string>
+    	<string name="making_profile_picture">Making profile picture&#8230;</string>
+    	<string name="are_you_sure_you_want_to_delete_this_photo">Are you sure you want te delete this photo?</string>
+    	
+    		
+	<string name="activity">Activity</string>
+	
+
+		<!-- PROFILE ACTIVITY FRAGMENT -->
+    	<string name="checked_in_at">Checked in at</string>
+    	<string name="top_frequented_bars">Top Frequented Bars</string>
+    	<string name="collected_bar_stars">Collected Bar Stars</string>		
+    	
+    	<string name="not_checked_in">Not checked in</string>        
+    	<string name="no_favourite_bars_yet">No favourite bars yet</string>        
+    	<string name="no_stars_collected_yet">No stars collected yet</string>        
+    	
+    	
+	<string name="approach">Approach</string>
+	
+	
+		<!-- PROFILE APPROACH FRAGMENT -->
+		<string name="i_dont_want_to_be_approached">I don\'t want to be approached</string>
+		
+		
+    	<string name="tips">Tips</string>
+    	<string name="come_and_say_hi">Come and say hi</string>
+    	<string name="buy_me_a_drink">Buy me a drink</string>
+    	<string name="invite_me_to_dance">Invite me to dance</string>
+    	<string name="make_me_laugh">Make me laugh</string>
+        <string name="meet_my_friends">Meet my friends</string>
+    	<string name="surprise_me">Surprise me</string>
+    	
+    	<string name="donts">Don\'ts</string>
+		
+    	<string name="dont_be_drunk">Don\'t be drunk</string>
+    	<string name="dont_be_persistent">Don\'t be persistent</string>
+    	<string name="dont_expect_anything">Don\'t expect anything</string>
+    	
+    	<string name="personal_advice">Personal advice</string>
+	
+	
+    <string name="vip_privileges">VIP Privileges</string>	
+    	
+    	
+	<string name="report">Report</string>
+    <string name="or">or</string>
+    <string name="block">Block</string>
+    <string name="this_person">this person</string>
+    
+    
+    <string name="message">Message</string>
+    <string name="messaged">Messaged</string>
+    <string name="flirt">Flirt</string>
+    <string name="flirted">Flirted</string>
+	<string name="vote">Vote</string> 
+	<string name="voted">Voted</string> 
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    
+    <string name="error_you_have_to_be_in_same_bar">You have to be in the same bar to communicate</string>
+    
+    <string name="error_checked_out1">Sorry,</string>
+    <string name="error_checked_out2">checked out from</string>
+    
+    <string name="error_flirt_too_recent">Sorry, you have already flirted in the last 5 minutes.</string>
+    <string name="error_flirt_process">Sorry, there has been a problem with the flirting process.</string>
+    
+    
+    <string name="error_vote_too_recent">The next voting session will start at</string>
+    <string name="error_vote_process">Sorry, there has been a problem with the voting process.</string>
+    
+    <string name="you_blocked">You blocked</string> 
+    <string name="you_unblocked">You un-blocked</string> 
+    
+    <string name="report_submitted">Report submitted.</string>
+    
+    
+    <string name="error_dont_bother">doesn\'t want to be approached at this moment.</string>
+    <string name="error_blocked_user">You have blocked this user. You must un-block this user if you wish to communicate.</string> 
+    <string name="error_not_checked_in">You both have to be checked in to communicate.</string> 
+    <string name="error_not_checked_in_same_place1">You have to check in at</string> 
+	<string name="error_not_checked_in_same_place2">to communicate with</string>  
+    
+    
+    <!-- FRAGMENT PLACE -->
+    <string name="checkin">Check in</string>
+    <string name="checkout">Check out</string>  
+    <string name="in">in</string> 
+    <string name="meters">meters</string> 
+    <string name="peek">Peek</string>  
+    
+    <string name="guys">guys</string> 
+    <string name="girls">girls</string> 
+    <string name="age">Age</string>  
+    <string name="years_old">years old</string>  
+    <string name="checked_in_recently">Checked-In recently&#8230;</string>   
+    <string name="no_users_msg">No one has arrived yet&#8230;\nBe the first to check-in!</string>   
+
+    <string name="vip_privilege">VIP Privilege</string> 
+    <string name="become_vip_to_see_more_people">Become a VIP member to see more people.</string>
+    <string name="become_vip_to_browse_profiles">Become a VIP member to browse profiles while peeking.</string>
+    
+    
+    <!-- FRAGMENT VIP PRIVILEGES -->
+    <string name="vip_peek_privilege">\"Super\" Peek inside bars</string> 
+    <string name="vip_peek_privilege_description">Get an exclusive look inside every party in town, from anywhere.</string>  
+    
+    <string name="vip_visit_privilege">See who visited your profile</string> 
+    <string name="vip_visit_privilege_description">Find out who\'s been checking you out inside the bar.</string>  
+     
+    <string name="vip_visibility_privilege">Increase your visibility</string> 
+    <string name="vip_visibility_privilege_description">You\'ll be at the top of the list. More visibility means more flirts and more votes.</string>  
+    
+    <string name="vip_rendezvous_privilege">Plan the perfect Rendez-Vous</string> 
+    <string name="vip_rendezvous_privilege_description">Raise your chances of meeting tonight by showing up to more candidates.</string>  
+    
+    
+    <string name="vip_more_privilege">&#8230;and more</string> 
+    <string name="vip_more_privilege_description">VIP members get access to special events around the city.</string> 
+    
+    <!-- FRAGMENT PROFILE -->
+
+    
+    <string name="send">Send</string>
+    <string name="a_message">a message</string>
+    
+    <string name="can_i_come_say_hi">Can I come say hi?</string>
+    <string name="can_i_buy_you_a_drink">Can I buy you a drink?</string>
+    <string name="want_to_dance">Want to dance?</string>
+    <string name="one_mojito_please">One mojito please!</string>
+    <string name="im_on_the_dance_floor">I\'m on the dance floor</string>   
+    <string name="find_me">Find me!</string> 
+    <string name="personalized_msg">Personalized message</string> 
+    <string name="empty_msg">Empty messages aren\'t sent.</string> 
+    <string name="msg_sent">Message sent.</string> 
+    
+    <string name="vip">VIP</string> 
+    
+    
+    
+    <!-- DIALOG REPORT -->
+    <string name="report_user">Report user</string>
+    
+    <string name="photo_issue">Photo Issue (inappropriate, blank/broken, object, blurry, multiple people, etc.)</string>
+    <string name="photo_content_issue">Photo Content Issue (inappropriate, contact info, etc.)</string>
+    <string name="underage_user">Underage User</string>
+    <string name="scammer">Scammer</string>
+    <string name="fake_profile">Fake Profile</string>
+    <string name="innapropriate_behavior">Inappropriate Behavior</string>
+    <string name="other">Other (describe below)</string>
+    <string name="additional_comments">Additional comments (required)</string>
+    <string name="submit">Submit</string>
+    
+    <string name="error_report_short_comment">Please explain why you are flagging this user as innapropriate in a few words.</string>
+    
+    
+    
+    
+	<!--  FLIRTS -->
+    <string name="flirts">Flirts</string>
+	<string name="flirted_you">sent you a flirt</string>
+	<string name="you_flirted">You flirted with</string>
+
+    
+    
+	<!--  YOUR MESSAGES -->
+	<string name="message_from">Message from</string>
+    <string name="messages">Messages</string>
+	<string name="messages_to_you">Sent to you</string>
+	<string name="messages_you_sent">You sent</string>
+
+	
+	<!--  VOTES -->
+	<string name="votes">Votes</string> 
+	<string name="votes_msg">Every hour, votes are casted for the hottest girl and guy of each bar. The winners become Bar Stars.</string>
+	
+	
+	<string name="voted_you">voted for you</string>
+	<string name="you_voted">You voted for</string>
+		
+	<!--  VISITS -->
+	<string name="visits">Visits</string> 
+	<string name="you_visited1">You visited</string>
+	<string name="you_visited2">\'s profile</string>
+	
+ 	<!--  OTHER -->	
+	<string name="pull_to_refresh_pull_label">Pull to refresh&#8230;</string>
+    <string name="pull_to_refresh_release_label">Release to refresh&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">Loading&#8230;</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh&#8230;</string>
+	
+    
+    
+   	<!-- EDIT PROFILE -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="type_something_here">Type something here</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="empty">Empty</string>
+    <string name="saving_changes">Saving Changes&#8230;</string>
+    
+    <string name="changes_saved">Changes Saved</string>
+    
+    <!-- DATES -->
+    <string name="today">Today</string>  
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>   
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>   
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>   
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>     
+</resources>

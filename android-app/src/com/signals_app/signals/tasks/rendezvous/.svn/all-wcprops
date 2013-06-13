@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Signals/!svn/ver/268/src/com/signals_app/signals/tasks/rendezvous
+END
+FetchConfirmedRendezvousTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Signals/!svn/ver/278/src/com/signals_app/signals/tasks/rendezvous/FetchConfirmedRendezvousTaskMethod.java
+END
+InvitationTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Signals/!svn/ver/273/src/com/signals_app/signals/tasks/rendezvous/InvitationTaskMethod.java
+END
+SuggestRendezvousTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Signals/!svn/ver/277/src/com/signals_app/signals/tasks/rendezvous/SuggestRendezvousTaskMethod.java
+END
+FetchPotentialRendezvousTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Signals/!svn/ver/279/src/com/signals_app/signals/tasks/rendezvous/FetchPotentialRendezvousTaskMethod.java
+END
+ConfirmRendezvousTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Signals/!svn/ver/278/src/com/signals_app/signals/tasks/rendezvous/ConfirmRendezvousTaskMethod.java
+END
+CandidatesTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Signals/!svn/ver/278/src/com/signals_app/signals/tasks/rendezvous/CandidatesTaskMethod.java
+END
+CancelRendezvousTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Signals/!svn/ver/276/src/com/signals_app/signals/tasks/rendezvous/CancelRendezvousTaskMethod.java
+END
+FetchPlacesRendezvousTaskMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Signals/!svn/ver/277/src/com/signals_app/signals/tasks/rendezvous/FetchPlacesRendezvousTaskMethod.java
+END

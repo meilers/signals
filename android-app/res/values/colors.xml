@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->  
+
+<resources>
+    <color name="transparent">#00000000</color>  
+    <color name="black_trans">#AA000000</color>   
+    <color name="black_very_trans">#44000000</color>  
+    
+    <color name="black">#000000</color>  
+    <color name="citrus_orange">#fbb608</color>
+    <color name="citrus_green">#b0cc42</color>
+    <color name="citrus_red">#FE6667</color> 
+    <color name="red">#FFCB3334</color> 
+    <color name="citrus_red">#FE6667</color> 
+    <color name="citrus_red_trans">#77FE6667</color> 
+    <color name="reddish">#FE6667</color> 
+    <color name="white">#FFFFFF</color> 
+    <color name="white_trans">#77FFFFFF</color> 
+    <color name="white_trans_subtle">#99FFFFFF</color> 
+	<color name="android_green">#FFA4C639</color>
+	<color name="honeycombish_blue">#FF58BAED</color>
+	<color name="honeycombish_blue_trans_trans">#7758BAED</color>
+	<color name="soft_gray">#cecece</color>
+	<color name="background">#FFEFEFEF</color>
+	
+	<color name="rbm_menu_background">#CC000000</color>
+    <color name="rbm_item_text_color">#ffffff</color>
+</resources>

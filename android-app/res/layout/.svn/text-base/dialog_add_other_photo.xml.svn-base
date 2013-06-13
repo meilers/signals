@@ -1,0 +1,22 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="@color/white" 
+    android:orientation="vertical"> 
+    
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/black"/>
+    
+    <ListView
+    android:id="@+id/photo_action_listview"
+    android:divider="@android:color/darker_gray"
+    android:dividerHeight="1dp"
+    android:minHeight="?android:attr/listPreferredItemHeight" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    /> 
+</LinearLayout> 
